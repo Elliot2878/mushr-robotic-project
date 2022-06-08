@@ -1,0 +1,64 @@
+[rospy.client][INFO] 2022-05-05 19:37:20,263: init_node, name[/car/drive], pid[28145]
+[xmlrpc][INFO] 2022-05-05 19:37:20,265: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 19:37:20,267: Started XML-RPC server [http://robot-desktop:42807/]
+[rospy.init][INFO] 2022-05-05 19:37:20,267: ROS Slave URI: [http://robot-desktop:42807/]
+[rospy.impl.masterslave][INFO] 2022-05-05 19:37:20,268: _ready: http://robot-desktop:42807/
+[rospy.registration][INFO] 2022-05-05 19:37:20,270: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 19:37:20,272: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 19:37:20,369: registered with master
+[rospy.rosout][INFO] 2022-05-05 19:37:20,370: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 19:37:20,376: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 19:37:20,379: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 19:37:20,417: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:20,517: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:20,617: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 19:37:20,655: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 19:37:20,658: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 19:37:20,717: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:20,817: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:20,918: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,017: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,117: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,217: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,317: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,417: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,517: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,617: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,717: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,817: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:21,917: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,017: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,117: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,218: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,317: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,417: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,518: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,617: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,717: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,819: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:22,917: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,017: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,117: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,217: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,318: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,417: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,517: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,617: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,717: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,817: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:23,917: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,017: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,118: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,217: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,317: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,418: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,517: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,618: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,718: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,817: publishing ctrl
+[rosout][INFO] 2022-05-05 19:37:24,917: publishing ctrl
+[rospy.core][INFO] 2022-05-05 19:37:24,980: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 19:37:25,001: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 19:37:25,002: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-05-05 19:37:25,003: signal-2
+[rospy.core][INFO] 2022-05-05 19:37:25,109: signal_shutdown [atexit]

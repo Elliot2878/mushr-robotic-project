@@ -1,0 +1,16 @@
+[rospy.client][INFO] 2022-05-05 20:44:11,939: init_node, name[/car/push_button], pid[2571]
+[xmlrpc][INFO] 2022-05-05 20:44:11,950: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 20:44:11,951: ROS Slave URI: [http://robot-desktop:39669/]
+[xmlrpc][INFO] 2022-05-05 20:44:11,952: Started XML-RPC server [http://robot-desktop:39669/]
+[rospy.impl.masterslave][INFO] 2022-05-05 20:44:11,952: _ready: http://robot-desktop:39669/
+[rospy.registration][INFO] 2022-05-05 20:44:11,956: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 20:44:11,965: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 20:44:12,052: registered with master
+[rospy.rosout][INFO] 2022-05-05 20:44:12,053: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 20:44:12,073: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 20:44:12,094: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 20:44:12,305: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-05-05 20:44:36,597: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 20:44:36,606: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-05-05 20:44:36,609: signal-2
+[rospy.core][INFO] 2022-05-05 20:44:51,634: signal_shutdown [signal-15]

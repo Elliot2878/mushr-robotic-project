@@ -1,0 +1,74 @@
+
+
+1651793797.994129207  Node Startup
+1651793798.611984832 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:196(loadNodelet)] [topics: /rosout] Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:
+1651793798.729431030 INFO /car/mux/nodelet_manager [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/loader.cpp:233(Loader::Impl::advertiseRosApi)] [topics: /rosout] Initializing nodelet with 4 worker threads.
+1651793798.888135249 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.12/src/libros/service.cpp:80(service::exists)] [topics: /rosout] waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...
+1651793798.956894415 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.12/src/libros/service.cpp:123(service::waitForService)] [topics: /rosout] waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.
+1651793800.026418269 INFO /car/mux/nodelet_manager [/home/robot/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/src/ackermann_cmd_mux_nodelet.cpp:181(AckermannCmdMuxNodelet::reloadConfiguration)] [topics: /rosout, /car/mux/ackermann_cmd_mux/parameter_descriptions, /car/mux/ackermann_cmd_mux/parameter_updates, /car/mux/ackermann_cmd_mux/output] AckermannCmdMux : (re)configured [/home/robot/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/param/mux.yaml]
+1651793800.058152644 INFO /car/vesc/vesc_driver [/home/robot/catkin_ws/src/mushr/mushr_base/vesc/vesc_driver/src/vesc_driver.cpp:96(VescDriver::timerCallback)] [topics: /rosout, /car/vesc/sensors/core, /car/vesc/sensors/servo_position_command] Connected to VESC with firmware version 2.18
+1651793802.200751066 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.301769018 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.401042938 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.502630949 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.600521087 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.702188968 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.802640914 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793802.901226043 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.003355979 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.105474948 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.204674005 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.304744005 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.409918069 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.502589941 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.600330114 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.702332973 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.800673961 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793803.901546001 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.000505924 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.102184057 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.200474023 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.301207065 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.401150941 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.501662015 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.601562976 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.705534934 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.800395011 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793804.902245044 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.001465082 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.103516101 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.202146053 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.303895950 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.401858091 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.505199909 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.603725910 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.704773902 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.801481962 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793805.901875019 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.012022018 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.100902080 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.202500104 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.304611921 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.403517961 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.502876996 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.601473093 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.712219953 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.803323984 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793806.905425071 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.002163887 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.101407051 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.201957941 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.306308031 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.404400110 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.505460023 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.604221105 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.702099084 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.803369998 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793807.906466007 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.003045082 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.101520061 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.204786062 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.302124977 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.404489040 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.506654977 INFO /car/drive [cybertruck2.py:113(publish_ctrl)] [topics: /rosout, /csi_cam_0/image_raw, /car/mux/ackermann_cmd_mux/input/navigation] publishing ctrl
+1651793808.636946547 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:159(unloadNodelet)] [topics: /rosout, /car/mux/nodelet_manager/bond] Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager

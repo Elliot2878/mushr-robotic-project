@@ -1,0 +1,382 @@
+[rosmaster.main][INFO] 2022-05-05 19:36:07,396: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2022-05-05 19:36:07,396: Starting ROS Master Node
+[xmlrpc][INFO] 2022-05-05 19:36:07,399: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2022-05-05 19:36:07,400: Started XML-RPC server [http://robot-desktop:11311/]
+[rosmaster.master][INFO] 2022-05-05 19:36:07,400: Master initialized: port[11311], uri[http://robot-desktop:11311/]
+[xmlrpc][INFO] 2022-05-05 19:36:07,401: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2022-05-05 19:36:07,426: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,430: +PARAM [/roslaunch/uris/host_robot_desktop__46389] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,668: +PARAM [/car/vesc/vesc_driver/current_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,669: +PARAM [/car/vesc/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,670: +PARAM [/car/ydlidar_node/low_exposure] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,670: +PARAM [/car/vesc/vesc_driver/port] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,672: +PARAM [/car/vesc/vesc_driver/position_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,673: +PARAM [/car/vesc/vesc_driver/speed_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,673: +PARAM [/car/ydlidar_node/ignore_array] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,674: +PARAM [/car/ydlidar_node/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,675: +PARAM [/car/vesc/throttle_interpolator/car_name] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,676: +SERVICE [/rosout/get_loggers] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,676: +PARAM [/car/vesc/chassis_length] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,677: +PARAM [/car/vesc/vesc_driver/servo_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,678: +PARAM [/car/vesc/steering_angle_to_servo_gain] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,679: +SERVICE [/rosout/set_logger_level] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,680: +PARAM [/car/ydlidar_node/angle_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,681: +PARAM [/car/vesc/speed_to_erpm_offset] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,682: +PARAM [/car/vesc/vesc_driver/brake_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,683: +PARAM [/car/ydlidar_node/range_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,684: +PARAM [/car/ydlidar_node/heartbeat] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,684: +PARAM [/car/ydlidar_node/resolution_fixed] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,686: +PUB [/rosout_agg] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,686: +PARAM [/car/camera/realsense2_camera_manager/rs435_color_saturation] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,687: +PARAM [/car/vesc/throttle_smoother_rate] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,688: +PARAM [/car/vesc/vesc_driver/brake_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,690: +PARAM [/car/ydlidar_node/angle_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,691: +PARAM [/car/vesc/servo_smoother_rate] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,691: +PARAM [/car/vesc/vesc_driver/servo_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,693: +PARAM [/car/mux/ackermann_cmd_mux/yaml_cfg_file] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,695: +PARAM [/car/vesc/speed_to_erpm_gain] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,696: +PARAM [/car/vesc/vesc_driver/duty_cycle_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,698: +PARAM [/car/ydlidar_node/range_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,700: +PARAM [/car/vesc/vesc_driver/position_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,702: +PARAM [/car/vesc/vesc_driver/current_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,703: +SUB [/rosout] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,703: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,704: +PARAM [/car/ydlidar_node/baudrate] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,705: +PARAM [/car/camera/realsense2_camera_manager/rs435_color_white_balance] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,705: +PARAM [/car/vesc/max_servo_speed] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,705: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,706: +PARAM [/car/vesc/vesc_driver/duty_cycle_max] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,706: +PARAM [/car/vesc/vesc_to_odom/publish_tf] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,706: +PARAM [/car/imu_node/port] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,707: +PARAM [/car/vesc/tachometer_ticks_to_meters_gain] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,707: +PARAM [/car/ydlidar_node/samp_rate] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,707: +PARAM [/car/ydlidar_node/port] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,708: +PARAM [/car/vesc/vesc_driver/invert_servo] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,708: +PARAM [/car/vesc/vesc_driver/speed_min] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,708: +PARAM [/car/vesc/wheelbase] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,709: +PARAM [/car/ydlidar_node/angle_fixed] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,709: +PARAM [/car/ydlidar_node/frequency] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,709: +PARAM [/car/vesc/steering_angle_to_servo_offset] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:07,775: +PUB [/rosout] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,778: +SERVICE [/car/vesc/ackermann_to_vesc/get_loggers] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,782: +SERVICE [/car/vesc/ackermann_to_vesc/set_logger_level] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,799: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/']
+[rosmaster.master][INFO] 2022-05-05 19:36:07,805: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:07,831: +PUB [/car/vesc/commands/motor/unsmoothed_speed] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,865: +PUB [/car/vesc/commands/servo/unsmoothed_position] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,868: +PUB [/rosout] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,874: +SERVICE [/car/vesc/vesc_driver/get_loggers] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,886: +SERVICE [/car/vesc/vesc_driver/set_logger_level] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,900: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/']
+[rosmaster.master][INFO] 2022-05-05 19:36:07,904: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:07,947: +PUB [/rosout] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,971: +SERVICE [/car/vesc/vesc_to_odom/get_loggers] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,973: +SUB [/car/mux/ackermann_cmd_mux/output] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:07,991: +SERVICE [/car/vesc/vesc_to_odom/set_logger_level] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,002: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/']
+[rosmaster.master][INFO] 2022-05-05 19:36:08,008: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:08,063: +PUB [/rosout] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,087: +SERVICE [/car/mux/ackermann_cmd_mux/get_loggers] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,106: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/']
+[rosmaster.master][INFO] 2022-05-05 19:36:08,109: +PUB [/rosout] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,110: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:08,111: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/']
+[rosmaster.master][INFO] 2022-05-05 19:36:08,113: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:08,119: +SERVICE [/car/mux/ackermann_cmd_mux/set_logger_level] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,143: +SERVICE [/car/mux/nodelet_manager/get_loggers] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,188: +SERVICE [/car/mux/nodelet_manager/set_logger_level] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,207: +PUB [/rosout] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,208: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/']
+[rosmaster.master][INFO] 2022-05-05 19:36:08,213: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:08,215: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/mux/ackermann_cmd_mux
+[rosmaster.master][INFO] 2022-05-05 19:36:08,276: +SERVICE [/car/ydlidar_node/get_loggers] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,323: +SERVICE [/car/ydlidar_node/set_logger_level] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,350: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/mux/nodelet_manager
+[rosmaster.master][INFO] 2022-05-05 19:36:08,362: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2022-05-05 19:36:08,377: +PARAM [/car/mux/ackermann_cmd_mux] by /car/mux/ackermann_cmd_mux
+[rosmaster.master][INFO] 2022-05-05 19:36:08,391: +PUB [/car/vesc/sensors/core] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,427: +PUB [/car/scan] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,455: +PUB [/car/vesc/sensors/servo_position_command] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,463: +SERVICE [/car/mux/nodelet_manager/load_nodelet] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,486: +PUB [/car/vesc/odom] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,515: +SERVICE [/car/mux/nodelet_manager/unload_nodelet] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,563: +SERVICE [/car/mux/nodelet_manager/list] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,627: +SERVICE [/car/mux/ackermann_cmd_mux/set_parameters] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,671: +PUB [/car/mux/ackermann_cmd_mux/parameter_descriptions] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,731: +PUB [/car/mux/ackermann_cmd_mux/parameter_updates] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,755: +SUB [/car/vesc/commands/motor/duty_cycle] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,784: +SUB [/car/vesc/sensors/core] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,807: +PARAM [/car/mux/ackermann_cmd_mux/yaml_cfg_file] by /car/mux/nodelet_manager
+[rosmaster.master][INFO] 2022-05-05 19:36:08,851: +PUB [/car/mux/ackermann_cmd_mux/output] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:08,911: publisherUpdate[/car/mux/ackermann_cmd_mux/output] -> http://robot-desktop:42671/ ['http://robot-desktop:33809/']
+[rosmaster.master][INFO] 2022-05-05 19:36:08,917: publisherUpdate[/car/mux/ackermann_cmd_mux/output] -> http://robot-desktop:42671/ ['http://robot-desktop:33809/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:08,991: +SUB [/car/vesc/commands/motor/current] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,037: +SUB [/car/vesc/sensors/servo_position_command] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,076: +PUB [/rosout] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,081: +SUB [/car/mux/ackermann_cmd_mux/input/safety] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,102: +SERVICE [/car/vesc/throttle_interpolator/get_loggers] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,118: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,121: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:09,143: +SERVICE [/car/vesc/throttle_interpolator/set_logger_level] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,175: +SUB [/car/vesc/commands/motor/brake] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,255: +SUB [/car/mux/ackermann_cmd_mux/input/teleop] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,388: +SUB [/car/vesc/commands/motor/speed] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,462: +SUB [/car/mux/ackermann_cmd_mux/input/navigation] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,525: +SUB [/car/vesc/commands/motor/position] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,562: +PUB [/rosout] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,575: +SUB [/car/mux/ackermann_cmd_mux/input/default] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,592: +PARAM [/car/mux/ackermann_cmd_mux/yaml_cfg_file] by /car/mux/nodelet_manager
+[rosmaster.master][INFO] 2022-05-05 19:36:09,601: +PUB [/car/mux/ackermann_cmd_mux/active] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,605: +SERVICE [/car/push_button/get_loggers] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,619: +PUB [/car/mux/nodelet_manager/bond] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,622: +SERVICE [/car/push_button/set_logger_level] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,626: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:38257/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,628: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:38257/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:09,630: +SUB [/car/vesc/commands/servo/position] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,680: +PUB [/car/push_button_state] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,690: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/vesc/vesc_driver
+[rosmaster.master][INFO] 2022-05-05 19:36:09,703: +SUB [/car/mux/nodelet_manager/bond] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,719: +PUB [/car/vesc/commands/motor/speed] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,724: +PUB [/car/mux/nodelet_manager/bond] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,727: publisherUpdate[/car/vesc/commands/motor/speed] -> http://robot-desktop:45637/ ['http://robot-desktop:37373/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,728: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:33809/ ['http://robot-desktop:33809/', 'http://robot-desktop:43629/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,730: +PUB [/car/vesc/commands/servo/position] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,733: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:33809/ ['http://robot-desktop:33809/', 'http://robot-desktop:43629/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:09,735: publisherUpdate[/car/vesc/commands/motor/speed] -> http://robot-desktop:45637/ ['http://robot-desktop:37373/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:09,736: publisherUpdate[/car/vesc/commands/servo/position] -> http://robot-desktop:45637/ ['http://robot-desktop:37373/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,740: publisherUpdate[/car/vesc/commands/servo/position] -> http://robot-desktop:45637/ ['http://robot-desktop:37373/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:09,755: +SUB [/car/vesc/commands/motor/unsmoothed_speed] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,768: +SUB [/car/vesc/commands/servo/unsmoothed_position] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,775: +SUB [/car/mux/nodelet_manager/bond] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,893: +SERVICE [/car/mux/zero_ackermann_cmd/get_loggers] /car/mux/zero_ackermann_cmd http://robot-desktop:38911/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,897: +SERVICE [/car/mux/zero_ackermann_cmd/set_logger_level] /car/mux/zero_ackermann_cmd http://robot-desktop:38911/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,902: +PUB [/car/mux/ackermann_cmd_mux/input/default] /car/mux/zero_ackermann_cmd http://robot-desktop:38911/
+[rosmaster.master][INFO] 2022-05-05 19:36:09,930: publisherUpdate[/car/mux/ackermann_cmd_mux/input/default] -> http://robot-desktop:33809/ ['http://robot-desktop:38911/']
+[rosmaster.master][INFO] 2022-05-05 19:36:09,937: publisherUpdate[/car/mux/ackermann_cmd_mux/input/default] -> http://robot-desktop:33809/ ['http://robot-desktop:38911/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:10,576: +PUB [/rosout] /car/drive http://robot-desktop:40639/
+[rosmaster.master][INFO] 2022-05-05 19:36:10,585: +SERVICE [/car/drive/get_loggers] /car/drive http://robot-desktop:40639/
+[rosmaster.master][INFO] 2022-05-05 19:36:10,589: +SERVICE [/car/drive/set_logger_level] /car/drive http://robot-desktop:40639/
+[rosmaster.master][INFO] 2022-05-05 19:36:10,597: +SUB [/csi_cam_0/image_raw] /car/drive http://robot-desktop:40639/
+[rosmaster.master][INFO] 2022-05-05 19:36:10,605: +PUB [/car/mux/ackermann_cmd_mux/input/navigation] /car/drive http://robot-desktop:40639/
+[rosmaster.master][INFO] 2022-05-05 19:36:10,610: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:10,639: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:38257/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:10,639: publisherUpdate[/car/mux/ackermann_cmd_mux/input/navigation] -> http://robot-desktop:33809/ ['http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:10,642: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:38257/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:10,643: publisherUpdate[/car/mux/ackermann_cmd_mux/input/navigation] -> http://robot-desktop:33809/ ['http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:10,710: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:10,810: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:10,910: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,011: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,110: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,210: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,311: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,410: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,510: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,611: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,710: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,810: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:11,911: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,011: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,110: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,211: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,310: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,411: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,511: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,610: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,711: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,811: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:12,911: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,011: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,111: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,210: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,311: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,411: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,511: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,610: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,711: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,810: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:13,910: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:14,011: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:14,110: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:14,211: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:14,315: +CACHEDPARAM [/rosout_disable_topics_generation] by /car/drive
+[rosmaster.master][INFO] 2022-05-05 19:36:14,324: -PUB [/car/push_button_state] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,326: -PUB [/rosout] /car/push_button http://robot-desktop:38257/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,328: -SERVICE [/car/push_button/set_logger_level] /car/push_button rosrpc://robot-desktop:43073
+[rosmaster.master][INFO] 2022-05-05 19:36:14,328: -SERVICE [/car/push_button/get_loggers] /car/push_button rosrpc://robot-desktop:43073
+[rosmaster.master][INFO] 2022-05-05 19:36:14,340: -SUB [/car/vesc/commands/motor/unsmoothed_speed] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,340: -SUB [/car/vesc/commands/servo/unsmoothed_position] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,341: -PUB [/car/vesc/commands/motor/speed] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,341: -PUB [/rosout] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,342: -PUB [/car/vesc/commands/servo/position] /car/vesc/throttle_interpolator http://robot-desktop:37373/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,342: -SERVICE [/car/vesc/throttle_interpolator/set_logger_level] /car/vesc/throttle_interpolator rosrpc://robot-desktop:36515
+[rosmaster.master][INFO] 2022-05-05 19:36:14,342: -SERVICE [/car/vesc/throttle_interpolator/get_loggers] /car/vesc/throttle_interpolator rosrpc://robot-desktop:36515
+[rosmaster.master][INFO] 2022-05-05 19:36:14,349: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,351: publisherUpdate[/car/vesc/commands/motor/speed] -> http://robot-desktop:45637/ []
+[rosmaster.master][INFO] 2022-05-05 19:36:14,354: publisherUpdate[/car/vesc/commands/motor/speed] -> http://robot-desktop:45637/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,354: publisherUpdate[/car/vesc/commands/servo/position] -> http://robot-desktop:45637/ []
+[rosmaster.master][INFO] 2022-05-05 19:36:14,356: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:37373/', 'http://robot-desktop:40639/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,357: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,359: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:42671/', 'http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,356: publisherUpdate[/car/vesc/commands/servo/position] -> http://robot-desktop:45637/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,372: -PUB [/car/mux/ackermann_cmd_mux/input/default] /car/mux/zero_ackermann_cmd http://robot-desktop:38911/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,377: -SERVICE [/car/mux/zero_ackermann_cmd/set_logger_level] /car/mux/zero_ackermann_cmd rosrpc://robot-desktop:41549
+[rosmaster.master][INFO] 2022-05-05 19:36:14,377: -SERVICE [/car/mux/zero_ackermann_cmd/get_loggers] /car/mux/zero_ackermann_cmd rosrpc://robot-desktop:41549
+[rosmaster.master][INFO] 2022-05-05 19:36:14,422: -PUB [/rosout] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,434: -PUB [/rosout] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,441: -PUB [/rosout] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,452: publisherUpdate[/car/mux/ackermann_cmd_mux/input/default] -> http://robot-desktop:33809/ []
+[rosmaster.master][INFO] 2022-05-05 19:36:14,458: -PUB [/car/vesc/commands/motor/unsmoothed_speed] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,459: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,461: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:44125/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,462: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,463: publisherUpdate[/car/mux/ackermann_cmd_mux/input/default] -> http://robot-desktop:33809/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2022-05-05 19:36:14,466: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-05-05 19:36:14,467: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:39999/', 'http://robot-desktop:40639/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,468: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,470: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:33809/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,471: -PUB [/car/vesc/odom] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,480: -PUB [/car/scan] /car/ydlidar_node http://robot-desktop:39999/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,490: -PUB [/rosout] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,496: -PUB [/rosout] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,510: -PUB [/car/vesc/commands/servo/unsmoothed_position] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,516: -SUB [/car/vesc/sensors/core] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,523: -SERVICE [/car/ydlidar_node/get_loggers] /car/ydlidar_node rosrpc://robot-desktop:38495
+[rosmaster.master][INFO] 2022-05-05 19:36:14,530: -PUB [/car/mux/ackermann_cmd_mux/parameter_descriptions] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,538: -PUB [/car/vesc/sensors/core] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,546: -SUB [/car/mux/ackermann_cmd_mux/output] /car/vesc/ackermann_to_vesc http://robot-desktop:42671/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,560: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,562: -SUB [/car/vesc/sensors/servo_position_command] /car/vesc/vesc_to_odom http://robot-desktop:44125/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,565: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:45637/', 'http://robot-desktop:43629/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,565: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:43629/', 'http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,567: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:43629/', 'http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,571: -SERVICE [/car/ydlidar_node/set_logger_level] /car/ydlidar_node rosrpc://robot-desktop:38495
+[rosmaster.master][INFO] 2022-05-05 19:36:14,583: -PUB [/car/mux/ackermann_cmd_mux/parameter_updates] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,594: -PUB [/car/vesc/sensors/servo_position_command] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,609: -SERVICE [/car/vesc/ackermann_to_vesc/get_loggers] /car/vesc/ackermann_to_vesc rosrpc://robot-desktop:45329
+[rosmaster.master][INFO] 2022-05-05 19:36:14,618: -SERVICE [/car/vesc/vesc_to_odom/get_loggers] /car/vesc/vesc_to_odom rosrpc://robot-desktop:49155
+[rosmaster.master][INFO] 2022-05-05 19:36:14,622: -PUB [/car/mux/ackermann_cmd_mux/output] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,632: -SUB [/car/vesc/commands/motor/duty_cycle] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,641: -SERVICE [/car/vesc/ackermann_to_vesc/set_logger_level] /car/vesc/ackermann_to_vesc rosrpc://robot-desktop:45329
+[rosmaster.master][INFO] 2022-05-05 19:36:14,655: -SERVICE [/car/vesc/vesc_to_odom/set_logger_level] /car/vesc/vesc_to_odom rosrpc://robot-desktop:49155
+[rosmaster.master][INFO] 2022-05-05 19:36:14,662: -PUB [/car/mux/ackermann_cmd_mux/active] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,671: -SUB [/car/vesc/commands/motor/current] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,682: -PUB [/car/mux/nodelet_manager/bond] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,691: -SUB [/car/vesc/commands/motor/brake] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,699: -SUB [/car/mux/ackermann_cmd_mux/input/safety] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,715: -SUB [/car/vesc/commands/motor/speed] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,726: -SUB [/car/mux/ackermann_cmd_mux/input/teleop] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,730: -SUB [/car/vesc/commands/motor/position] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,739: -SUB [/car/mux/ackermann_cmd_mux/input/navigation] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,750: -SUB [/car/vesc/commands/servo/position] /car/vesc/vesc_driver http://robot-desktop:45637/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,752: -SUB [/car/mux/ackermann_cmd_mux/input/default] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,758: -SERVICE [/car/vesc/vesc_driver/get_loggers] /car/vesc/vesc_driver rosrpc://robot-desktop:45145
+[rosmaster.master][INFO] 2022-05-05 19:36:14,761: -SUB [/car/mux/nodelet_manager/bond] /car/mux/nodelet_manager http://robot-desktop:33809/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,764: -SERVICE [/car/vesc/vesc_driver/set_logger_level] /car/vesc/vesc_driver rosrpc://robot-desktop:45145
+[rosmaster.master][INFO] 2022-05-05 19:36:14,767: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:33809/ ['http://robot-desktop:43629/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,768: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:43629/ ['http://robot-desktop:43629/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,771: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:33809/ ['http://robot-desktop:43629/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2022-05-05 19:36:14,772: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-05-05 19:36:14,773: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:43629/ ['http://robot-desktop:43629/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,773: -SERVICE [/car/mux/nodelet_manager/get_loggers] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,775: -CACHEDPARAM [/rosout_disable_topics_generation] by /car/vesc/vesc_driver
+[rosmaster.master][INFO] 2022-05-05 19:36:14,777: -SERVICE [/car/mux/nodelet_manager/set_logger_level] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,780: -SERVICE [/car/mux/nodelet_manager/load_nodelet] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,782: -SERVICE [/car/mux/nodelet_manager/unload_nodelet] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,785: -SERVICE [/car/mux/nodelet_manager/list] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,787: -SERVICE [/car/mux/ackermann_cmd_mux/set_parameters] /car/mux/nodelet_manager rosrpc://robot-desktop:46189
+[rosmaster.master][INFO] 2022-05-05 19:36:14,810: -CACHEDPARAM [/rosout_disable_topics_generation] by /car/mux/nodelet_manager
+[rosmaster.master][INFO] 2022-05-05 19:36:14,972: -PUB [/rosout] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,973: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:40639/']
+[rosmaster.master][INFO] 2022-05-05 19:36:14,976: -PUB [/car/mux/nodelet_manager/bond] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,978: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:40639/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:14,978: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:43629/ []
+[rosmaster.master][INFO] 2022-05-05 19:36:14,981: -SUB [/car/mux/nodelet_manager/bond] /car/mux/ackermann_cmd_mux http://robot-desktop:43629/
+[rosmaster.master][INFO] 2022-05-05 19:36:14,982: publisherUpdate[/car/mux/nodelet_manager/bond] -> http://robot-desktop:43629/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2022-05-05 19:36:14,984: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2022-05-05 19:36:15,010: -SERVICE [/car/mux/ackermann_cmd_mux/get_loggers] /car/mux/ackermann_cmd_mux rosrpc://robot-desktop:60993
+[rosmaster.master][INFO] 2022-05-05 19:36:15,021: -SERVICE [/car/mux/ackermann_cmd_mux/set_logger_level] /car/mux/ackermann_cmd_mux rosrpc://robot-desktop:60993
+[rosmaster.master][INFO] 2022-05-05 19:36:15,046: -CACHEDPARAM [/rosout_disable_topics_generation] by /car/mux/ackermann_cmd_mux
+[rosmaster.master][INFO] 2022-05-05 19:36:20,386: +PARAM [/roslaunch/uris/host_robot_desktop__38113] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,396: +PARAM [/csi_cam_0/target_fps] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,396: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,396: +PARAM [/csi_cam_0/camera_name] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,397: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,397: +PARAM [/csi_cam_0/image_width] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,398: +PARAM [/csi_cam_0/image_height] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,398: +PARAM [/csi_cam_0/sync_sink] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,398: +PARAM [/csi_cam_0/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,399: +PARAM [/csi_cam_0/camera_id] by /roslaunch
+[rosmaster.master][INFO] 2022-05-05 19:36:20,655: +PUB [/rosout] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,658: +SERVICE [/csi_cam_0/get_loggers] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,660: +SERVICE [/csi_cam_0/set_logger_level] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,685: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:40639/', 'http://robot-desktop:37765/']
+[rosmaster.master][INFO] 2022-05-05 19:36:20,688: publisherUpdate[/rosout] -> http://robot-desktop:37371/ ['http://robot-desktop:40639/', 'http://robot-desktop:37765/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:20,722: +SERVICE [/csi_cam_0/set_camera_info] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,726: +CACHEDPARAM [/rosout_disable_topics_generation] by /csi_cam_0
+[rosmaster.master][INFO] 2022-05-05 19:36:20,890: +PUB [/csi_cam_0/image_raw] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,893: +PUB [/csi_cam_0/camera_info] /csi_cam_0 http://robot-desktop:37765/
+[rosmaster.master][INFO] 2022-05-05 19:36:20,903: publisherUpdate[/csi_cam_0/image_raw] -> http://robot-desktop:40639/ ['http://robot-desktop:37765/']
+[rosmaster.master][INFO] 2022-05-05 19:36:20,907: publisherUpdate[/csi_cam_0/image_raw] -> http://robot-desktop:40639/ ['http://robot-desktop:37765/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2022-05-05 19:36:31,514: -PUB [/rosout_agg] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:31,517: -SUB [/rosout] /rosout http://robot-desktop:37371/
+[rosmaster.master][INFO] 2022-05-05 19:36:31,520: -SERVICE [/rosout/get_loggers] /rosout rosrpc://robot-desktop:37877
+[rosmaster.master][INFO] 2022-05-05 19:36:31,522: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://robot-desktop:37877
+[rosmaster.master][INFO] 2022-05-05 19:36:31,527: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2022-05-05 19:36:31,675: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2022-05-05 19:36:31,676: stopping master...
+[rospy.core][INFO] 2022-05-05 19:36:31,676: signal_shutdown [atexit]

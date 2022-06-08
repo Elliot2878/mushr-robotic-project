@@ -1,0 +1,2 @@
+[0m[ INFO] [1651780709.457840346]: Initializing nodelet with 4 worker threads.[0m
+[0m[ INFO] [1651780710.315118210]: AckermannCmdMux : (re)configured [/home/robot/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/param/mux.yaml][0m

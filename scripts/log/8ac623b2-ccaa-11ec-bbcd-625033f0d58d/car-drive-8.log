@@ -1,0 +1,508 @@
+[rospy.client][INFO] 2022-05-05 15:36:02,301: init_node, name[/car/drive], pid[7138]
+[xmlrpc][INFO] 2022-05-05 15:36:02,307: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:36:02,308: Started XML-RPC server [http://robot-desktop:43153/]
+[rospy.init][INFO] 2022-05-05 15:36:02,309: ROS Slave URI: [http://robot-desktop:43153/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:36:02,309: _ready: http://robot-desktop:43153/
+[xmlrpc][INFO] 2022-05-05 15:36:02,312: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 15:36:02,312: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 15:36:02,410: registered with master
+[rospy.rosout][INFO] 2022-05-05 15:36:02,411: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 15:36:02,417: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 15:36:02,420: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 15:36:02,515: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:36:02,530: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:40999/], count 0
+[rosout][INFO] 2022-05-05 15:36:02,535: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,555: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,582: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,594: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:36:02,597: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,615: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,637: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,655: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,675: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,695: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:36:02,707: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 15:36:02,709: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 15:36:02,715: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,735: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,755: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,775: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,795: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,818: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:36:02,823: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f8cc717e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:36:02,834: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:36:02,836: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,855: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,875: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,897: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,915: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,935: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,955: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,975: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:02,995: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:36:03,011: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f8cc717e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:36:03,015: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,025: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:36:03,035: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,055: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,075: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,095: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,115: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,135: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,155: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,175: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,195: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,215: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,235: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,255: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,275: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,295: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,315: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,335: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,355: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,375: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,395: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,415: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,435: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,455: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,475: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,496: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,515: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,535: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,555: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,575: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,595: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,615: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,635: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,655: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,675: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,695: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,715: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,735: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,755: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,775: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,795: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,815: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,835: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,855: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,875: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,895: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,915: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,935: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,955: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:03,976: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:05,477: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:05,496: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:05,516: publishing ctrl
+[rosout][INFO] 2022-05-05 15:36:05,536: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:36:05,554: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 15:36:05,569: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 15:36:05,572: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 15:36:05,573: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:40999/
+[rospy.impl.masterslave][INFO] 2022-05-05 15:36:05,574: signal-2
+[rosout][INFO] 2022-05-05 15:36:05,557: publishing ctrl
+[rospy.topics][WARNING] 2022-05-05 15:36:05,638: during shutdown, bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f8cc717e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rospy.core][INFO] 2022-05-05 15:36:06,198: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 15:39:06,709: init_node, name[/car/drive], pid[8078]
+[xmlrpc][INFO] 2022-05-05 15:39:06,710: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:39:06,711: Started XML-RPC server [http://robot-desktop:42219/]
+[rospy.init][INFO] 2022-05-05 15:39:06,712: ROS Slave URI: [http://robot-desktop:42219/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:39:06,712: _ready: http://robot-desktop:42219/
+[rospy.registration][INFO] 2022-05-05 15:39:06,714: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 15:39:06,715: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 15:39:06,812: registered with master
+[rospy.rosout][INFO] 2022-05-05 15:39:06,813: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 15:39:06,819: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 15:39:06,823: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 15:39:06,919: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:06,933: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:40999/], count 0
+[rosout][INFO] 2022-05-05 15:39:06,940: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:06,956: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:06,959: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:06,980: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,000: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,019: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,039: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,060: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:07,077: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-05-05 15:39:07,079: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,099: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,120: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,139: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:39:07,142: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa1a4d8c0>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:39:07,159: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:07,160: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:07,172: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 15:39:07,180: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,200: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,220: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,241: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,260: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,280: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,301: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,321: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,340: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:39:07,350: signal_shutdown [signal-2]
+[rosout][ERROR] 2022-05-05 15:39:07,348: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa1a4d8c0>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rospy.internal][INFO] 2022-05-05 15:39:07,371: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 15:39:07,372: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 15:39:07,374: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:40999/
+[rospy.impl.masterslave][INFO] 2022-05-05 15:39:07,375: signal-2
+[rosout][INFO] 2022-05-05 15:39:07,360: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:07,362: /car/driveReceived a new image.
+[rospy.core][INFO] 2022-05-05 15:39:07,509: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 15:39:53,801: init_node, name[/car/drive], pid[8663]
+[xmlrpc][INFO] 2022-05-05 15:39:53,802: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:39:53,803: Started XML-RPC server [http://robot-desktop:42289/]
+[rospy.init][INFO] 2022-05-05 15:39:53,804: ROS Slave URI: [http://robot-desktop:42289/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:39:53,804: _ready: http://robot-desktop:42289/
+[rospy.registration][INFO] 2022-05-05 15:39:53,806: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 15:39:53,807: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 15:39:53,905: registered with master
+[rospy.rosout][INFO] 2022-05-05 15:39:53,905: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 15:39:53,912: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 15:39:53,917: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 15:39:54,020: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:54,027: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:40999/], count 0
+[rosout][INFO] 2022-05-05 15:39:54,040: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,060: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,080: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:54,082: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,099: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:54,122: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-05-05 15:39:54,120: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,139: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,159: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,180: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,200: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:54,210: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 15:39:54,220: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,241: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,260: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:39:54,269: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f6ebd5d40>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:39:54,280: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,323: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,331: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:54,336: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,345: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,360: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,380: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,400: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,420: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,440: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,460: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,480: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,500: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:39:54,512: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f6ebd5d40>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:39:54,520: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,527: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:54,540: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,560: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,580: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,600: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,620: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,640: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,660: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,680: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,701: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:39:54,712: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7f6ebd5d40>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:39:54,725: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:39:54,729: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,744: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,760: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,780: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,800: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,820: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,840: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,860: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,880: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,900: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,920: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,940: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,960: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:54,980: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,000: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,020: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,040: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,060: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,080: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,100: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,120: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,140: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,160: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,180: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,200: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,220: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,240: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,260: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,280: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,300: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,321: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,340: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,360: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,380: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,400: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,420: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,440: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,460: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,480: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,500: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,520: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,540: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,560: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,580: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,600: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,620: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,640: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,660: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,680: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,700: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,720: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,740: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,760: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,780: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,800: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,820: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,841: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,862: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,880: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,900: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,920: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,940: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,960: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:55,980: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,000: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,020: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,040: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,060: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,080: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,100: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,120: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,140: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,160: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,180: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,200: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,220: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,240: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,260: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,280: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,300: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,320: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,340: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,360: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,380: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,400: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,420: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,440: publishing ctrl
+[rosout][INFO] 2022-05-05 15:39:56,460: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:39:56,481: signal_shutdown [signal-2]
+[rosout][INFO] 2022-05-05 15:39:56,480: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:39:56,496: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 15:39:56,501: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 15:39:56,504: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:40999/
+[rospy.impl.masterslave][INFO] 2022-05-05 15:39:56,505: signal-2
+[rospy.core][INFO] 2022-05-05 15:39:57,126: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 15:43:08,927: init_node, name[/car/drive], pid[9531]
+[xmlrpc][INFO] 2022-05-05 15:43:08,928: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:43:08,929: Started XML-RPC server [http://robot-desktop:34493/]
+[rospy.init][INFO] 2022-05-05 15:43:08,930: ROS Slave URI: [http://robot-desktop:34493/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:43:08,930: _ready: http://robot-desktop:34493/
+[xmlrpc][INFO] 2022-05-05 15:43:08,932: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 15:43:08,933: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 15:43:09,031: registered with master
+[rospy.rosout][INFO] 2022-05-05 15:43:09,031: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 15:43:09,037: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 15:43:09,040: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 15:43:09,133: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:43:09,151: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:40999/], count 0
+[rosout][INFO] 2022-05-05 15:43:09,153: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,176: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:09,177: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,193: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,213: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:43:09,232: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-05-05 15:43:09,234: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,253: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,273: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,294: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,313: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:43:09,328: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 15:43:09,334: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,353: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:43:09,360: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa09127e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:43:09,372: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:09,373: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,393: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,413: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,434: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,453: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,473: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,498: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,514: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,533: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:43:09,548: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa09127e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:43:09,553: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,567: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:09,574: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,593: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,613: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,633: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,653: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,673: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,693: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,713: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,735: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,754: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:43:09,755: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa09127e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:43:09,772: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:09,773: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,793: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,814: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,833: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,853: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,874: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,894: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,914: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,934: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:43:09,947: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa09127e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:43:09,955: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,965: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:09,974: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:09,993: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,016: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,033: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,053: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,073: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,095: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,113: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,137: publishing ctrl
+[rosout][ERROR] 2022-05-05 15:43:10,142: bad callback: <bound method cybertruck2.im_callback of <__main__.cybertruck2 instance at 0x7fa09127e8>>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 53, in im_callback
+    self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
+  File "/home/robot/catkin_ws/src/cybertruck2/src/part2.py", line 118, in detect_flag
+    mask2 = cv2.inRangeS(img, pixel_min2, pixel_max2)
+AttributeError: 'module' object has no attribute 'inRangeS'
+
+[rosout][INFO] 2022-05-05 15:43:10,154: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,160: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:43:10,173: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,193: publishing ctrl
+[rosout][INFO] 2022-05-05 15:43:10,213: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:43:10,232: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 15:43:10,248: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 15:43:10,249: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 15:43:10,250: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:40999/
+[rospy.impl.masterslave][INFO] 2022-05-05 15:43:10,250: signal-2
+[rosout][INFO] 2022-05-05 15:43:10,235: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:43:10,384: signal_shutdown [atexit]

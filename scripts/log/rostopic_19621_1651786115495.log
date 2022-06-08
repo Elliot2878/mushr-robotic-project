@@ -1,0 +1,18 @@
+[rospy.client][INFO] 2022-05-05 17:28:35,619: init_node, name[/rostopic_19621_1651786115495], pid[19621]
+[xmlrpc][INFO] 2022-05-05 17:28:35,620: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 17:28:35,621: Started XML-RPC server [http://robot-desktop:39151/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:28:35,622: _ready: http://robot-desktop:39151/
+[rospy.init][INFO] 2022-05-05 17:28:35,622: ROS Slave URI: [http://robot-desktop:39151/]
+[rospy.registration][INFO] 2022-05-05 17:28:35,623: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 17:28:35,623: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 17:28:35,723: registered with master
+[rospy.rosout][INFO] 2022-05-05 17:28:35,724: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 17:28:35,731: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 17:28:35,736: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 17:28:35,795: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [http://robot-desktop:40575/], count 0
+[rospy.internal][INFO] 2022-05-05 17:28:35,936: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2022-05-05 17:28:44,124: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:28:44,133: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 17:28:44,134: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to http://robot-desktop:40575/
+[rospy.impl.masterslave][INFO] 2022-05-05 17:28:44,134: signal-2
+[rospy.core][INFO] 2022-05-05 17:28:44,272: signal_shutdown [atexit]

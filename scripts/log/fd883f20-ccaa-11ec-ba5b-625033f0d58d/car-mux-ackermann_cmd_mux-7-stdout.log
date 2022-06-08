@@ -1,0 +1,36 @@
+[0m[ INFO] [1651779598.403952801]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651779598.533186916]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651779598.611778686]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651779609.804466599]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651779709.401138384]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651779718.248607807]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651779790.424311686]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651779790.523558144]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651779790.557294603]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651779891.473632741]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651780596.781215389]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651780596.933785024]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651780596.985712212]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651780746.319940801]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651781414.844251431]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651781415.076644712]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651781415.133356639]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651781431.677990487]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651781477.692480105]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651781477.880905261]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651781477.927703282]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651781481.464001979]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651781529.736655710]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651781580.715762149]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651782138.967834124]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651782139.191727873]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651782139.300616780]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651782163.569972187]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651782248.970148821]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651782249.173695123]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651782249.221008196]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651782259.873171317]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m
+[0m[ INFO] [1651782329.224182645]: Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:[0m
+[0m[ INFO] [1651782329.496328061]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1651782329.547778999]: waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1651782366.359213308]: Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager[0m

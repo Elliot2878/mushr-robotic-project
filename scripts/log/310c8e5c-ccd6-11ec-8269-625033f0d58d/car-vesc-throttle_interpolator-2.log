@@ -1,0 +1,119 @@
+[rospy.client][INFO] 2022-05-05 20:50:38,541: init_node, name[/car/vesc/throttle_interpolator], pid[4099]
+[xmlrpc][INFO] 2022-05-05 20:50:38,543: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 20:50:38,545: ROS Slave URI: [http://robot-desktop:33143/]
+[xmlrpc][INFO] 2022-05-05 20:50:38,545: Started XML-RPC server [http://robot-desktop:33143/]
+[rospy.impl.masterslave][INFO] 2022-05-05 20:50:38,546: _ready: http://robot-desktop:33143/
+[xmlrpc][INFO] 2022-05-05 20:50:38,569: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 20:50:38,571: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 20:50:38,645: registered with master
+[rospy.rosout][INFO] 2022-05-05 20:50:38,646: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 20:50:38,675: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 20:50:38,717: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 20:50:38,942: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 20:50:39,603: topic[/car/vesc/commands/motor/unsmoothed_speed] adding connection to [http://robot-desktop:41149/], count 0
+[rospy.internal][INFO] 2022-05-05 20:50:39,618: topic[/car/vesc/commands/servo/unsmoothed_position] adding connection to [http://robot-desktop:41149/], count 0
+[rospy.internal][INFO] 2022-05-05 20:50:39,785: topic[/car/vesc/commands/motor/speed] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.internal][INFO] 2022-05-05 20:50:39,794: topic[/car/vesc/commands/servo/position] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.core][INFO] 2022-05-05 20:50:49,315: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 20:50:49,378: topic[/car/vesc/commands/motor/speed] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 20:50:49,380: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 20:50:49,381: topic[/car/vesc/commands/servo/position] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 20:50:49,382: topic[/car/vesc/commands/motor/unsmoothed_speed] removing connection to http://robot-desktop:41149/
+[rospy.internal][INFO] 2022-05-05 20:50:49,391: topic[/car/vesc/commands/servo/unsmoothed_position] removing connection to http://robot-desktop:41149/
+[rospy.impl.masterslave][INFO] 2022-05-05 20:50:49,402: signal-2
+[rospy.core][INFO] 2022-05-05 20:50:49,969: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 20:53:41,173: init_node, name[/car/vesc/throttle_interpolator], pid[5150]
+[xmlrpc][INFO] 2022-05-05 20:53:41,175: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 20:53:41,180: ROS Slave URI: [http://robot-desktop:32985/]
+[xmlrpc][INFO] 2022-05-05 20:53:41,181: Started XML-RPC server [http://robot-desktop:32985/]
+[rospy.impl.masterslave][INFO] 2022-05-05 20:53:41,181: _ready: http://robot-desktop:32985/
+[xmlrpc][INFO] 2022-05-05 20:53:41,182: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 20:53:41,184: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 20:53:41,281: registered with master
+[rospy.rosout][INFO] 2022-05-05 20:53:41,282: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 20:53:41,329: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 20:53:41,348: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 20:53:41,588: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 20:53:42,077: topic[/car/vesc/commands/motor/unsmoothed_speed] adding connection to [http://robot-desktop:46553/], count 0
+[rospy.internal][INFO] 2022-05-05 20:53:42,104: topic[/car/vesc/commands/servo/unsmoothed_position] adding connection to [http://robot-desktop:46553/], count 0
+[rospy.internal][INFO] 2022-05-05 20:53:42,312: topic[/car/vesc/commands/motor/speed] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.internal][INFO] 2022-05-05 20:53:42,318: topic[/car/vesc/commands/servo/position] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.core][INFO] 2022-05-05 20:53:59,400: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 20:53:59,419: topic[/car/vesc/commands/motor/speed] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 20:53:59,427: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 20:53:59,428: topic[/car/vesc/commands/servo/position] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 20:53:59,435: topic[/car/vesc/commands/motor/unsmoothed_speed] removing connection to http://robot-desktop:46553/
+[rospy.internal][INFO] 2022-05-05 20:53:59,439: topic[/car/vesc/commands/servo/unsmoothed_position] removing connection to http://robot-desktop:46553/
+[rospy.impl.masterslave][INFO] 2022-05-05 20:53:59,445: signal-2
+[rospy.core][INFO] 2022-05-05 20:53:59,547: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 21:39:15,862: init_node, name[/car/vesc/throttle_interpolator], pid[6482]
+[xmlrpc][INFO] 2022-05-05 21:39:15,872: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 21:39:15,878: ROS Slave URI: [http://robot-desktop:40857/]
+[xmlrpc][INFO] 2022-05-05 21:39:15,881: Started XML-RPC server [http://robot-desktop:40857/]
+[rospy.impl.masterslave][INFO] 2022-05-05 21:39:15,882: _ready: http://robot-desktop:40857/
+[xmlrpc][INFO] 2022-05-05 21:39:15,897: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 21:39:15,899: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 21:39:15,979: registered with master
+[rospy.rosout][INFO] 2022-05-05 21:39:15,979: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 21:39:16,007: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 21:39:16,059: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 21:39:16,288: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 21:39:16,852: topic[/car/vesc/commands/motor/unsmoothed_speed] adding connection to [http://robot-desktop:43967/], count 0
+[rospy.internal][INFO] 2022-05-05 21:39:16,870: topic[/car/vesc/commands/servo/unsmoothed_position] adding connection to [http://robot-desktop:43967/], count 0
+[rospy.internal][INFO] 2022-05-05 21:39:17,013: topic[/car/vesc/commands/motor/speed] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.internal][INFO] 2022-05-05 21:39:17,019: topic[/car/vesc/commands/servo/position] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.core][INFO] 2022-05-05 21:39:37,797: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 21:39:37,871: topic[/car/vesc/commands/motor/speed] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 21:39:37,872: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 21:39:37,873: topic[/car/vesc/commands/servo/position] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 21:39:37,875: topic[/car/vesc/commands/motor/unsmoothed_speed] removing connection to http://robot-desktop:43967/
+[rospy.internal][WARNING] 2022-05-05 21:39:37,878: Unknown error initiating TCP/IP socket to robot-desktop:39981 (http://robot-desktop:43967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2022-05-05 21:39:37,894: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2022-05-05 21:39:37,904: topic[/car/vesc/commands/servo/unsmoothed_position] removing connection to http://robot-desktop:43967/
+[rospy.impl.masterslave][INFO] 2022-05-05 21:39:37,905: signal-2
+[rospy.internal][WARNING] 2022-05-05 21:39:38,286: Unknown error initiating TCP/IP socket to robot-desktop:39981 (http://robot-desktop:43967/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2022-05-05 21:39:38,428: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 21:40:45,891: init_node, name[/car/vesc/throttle_interpolator], pid[7102]
+[xmlrpc][INFO] 2022-05-05 21:40:45,897: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 21:40:45,898: Started XML-RPC server [http://robot-desktop:41207/]
+[rospy.impl.masterslave][INFO] 2022-05-05 21:40:45,899: _ready: http://robot-desktop:41207/
+[rospy.init][INFO] 2022-05-05 21:40:45,901: ROS Slave URI: [http://robot-desktop:41207/]
+[rospy.registration][INFO] 2022-05-05 21:40:45,909: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 21:40:45,910: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 21:40:46,002: registered with master
+[rospy.rosout][INFO] 2022-05-05 21:40:46,003: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 21:40:46,022: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 21:40:46,055: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 21:40:46,249: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 21:40:46,681: topic[/car/vesc/commands/motor/unsmoothed_speed] adding connection to [http://robot-desktop:33825/], count 0
+[rospy.internal][INFO] 2022-05-05 21:40:46,689: topic[/car/vesc/commands/servo/unsmoothed_position] adding connection to [http://robot-desktop:33825/], count 0
+[rospy.internal][INFO] 2022-05-05 21:40:46,875: topic[/car/vesc/commands/motor/speed] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.internal][INFO] 2022-05-05 21:40:46,877: topic[/car/vesc/commands/servo/position] adding connection to [/car/vesc/vesc_driver], count 0
+[rospy.core][INFO] 2022-05-05 21:40:53,084: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 21:40:53,143: topic[/car/vesc/commands/motor/speed] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 21:40:53,145: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 21:40:53,146: topic[/car/vesc/commands/servo/position] removing connection to /car/vesc/vesc_driver
+[rospy.internal][INFO] 2022-05-05 21:40:53,153: topic[/car/vesc/commands/motor/unsmoothed_speed] removing connection to http://robot-desktop:33825/
+[rospy.internal][INFO] 2022-05-05 21:40:53,159: topic[/car/vesc/commands/servo/unsmoothed_position] removing connection to http://robot-desktop:33825/
+[rospy.impl.masterslave][INFO] 2022-05-05 21:40:53,160: signal-2
+[rospy.core][INFO] 2022-05-05 21:40:53,729: signal_shutdown [atexit]

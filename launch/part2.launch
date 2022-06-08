@@ -1,0 +1,23 @@
+<launch>
+	<arg name="controller" default="PID" />
+	<arg name="racecar_version" default="racecar-uw-nano" />
+	<arg name="car_name" default="car" />
+	
+
+	<group ns="$(arg car_name)">
+
+	<group ns="vesc">
+	
+         <include file="$(find vesc_main)/launch/vesc.launch">
+             <arg name="racecar_version" value="$(arg racecar_version)" />
+             <arg name="car_name" default="/$(arg car_name)" />
+         </include>
+	</group>
+    	<group ns="mux">
+        	<include file="$(find ackermann_cmd_mux)/launch/mux.launch" />
+    	</group>
+		
+	<node pkg="cybertruck2" type="part2.py" name="drive" output="screen">
+	</node>
+	</group>
+</launch>

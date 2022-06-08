@@ -1,0 +1,11 @@
+[0m[ INFO] [1651779373.305073512]: Using gstreamer config from env: "nvarguscamerasrc sensor-id=0 ! video/x-raw(memory:NVMM),     width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)15/1 !      nvvidconv flip-method=2 ! video/x-raw, format=(string)BGRx ! videoconvert"[0m
+[0m[ INFO] [1651779373.319125647]: using default calibration URL[0m
+[0m[ INFO] [1651779373.319220804]: camera calibration URL: file:///home/robot/catkin_ws/src/cybertruck2/scripts/camera_info/csi_cam_0.yaml[0m
+[0m[ INFO] [1651779373.319363564]: Unable to open camera calibration file [/home/robot/catkin_ws/src/cybertruck2/scripts/camera_info/csi_cam_0.yaml][0m
+[0m[ INFO] [1651779373.319498564]: Loaded camera calibration from [0m
+[0m[ INFO] [1651779373.972462730]: Time offset: 1651779266.094[0m
+[0m[ INFO] [1651779373.991929970]: Publishing stream...[0m
+[0m[ INFO] [1651779373.992503251]: Started stream.[0m
+[0m[ INFO] [1651779493.997585080]: Stopping gstreamer pipeline...[0m
+[0m[ INFO] [1651779494.014770237]: GStreamer stream stopped![0m
+[0m[ INFO] [1651779494.015205549]: Cleaning up stream and exiting...[0m
