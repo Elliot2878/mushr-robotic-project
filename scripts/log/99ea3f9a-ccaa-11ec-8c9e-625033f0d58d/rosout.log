@@ -1,0 +1,10 @@
+
+
+1651779367.918749868  Node Startup
+1651779368.322759139 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:196(loadNodelet)] [topics: /rosout] Loading nodelet /car/mux/ackermann_cmd_mux of type ackermann_cmd_mux/AckermannCmdMuxNodelet to manager nodelet_manager with the following remappings:
+1651779368.525111587 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.12/src/libros/service.cpp:80(service::exists)] [topics: /rosout] waitForService: Service [/car/mux/nodelet_manager/load_nodelet] has not been advertised, waiting...
+1651779368.534266014 INFO /car/mux/nodelet_manager [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/loader.cpp:233(Loader::Impl::advertiseRosApi)] [topics: /rosout] Initializing nodelet with 4 worker threads.
+1651779368.701130910 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-roscpp-1.14.12/src/libros/service.cpp:123(service::waitForService)] [topics: /rosout] waitForService: Service [/car/mux/nodelet_manager/load_nodelet] is now available.
+1651779369.253474347 INFO /car/mux/nodelet_manager [/home/robot/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/src/ackermann_cmd_mux_nodelet.cpp:181(AckermannCmdMuxNodelet::reloadConfiguration)] [topics: /rosout, /car/mux/ackermann_cmd_mux/parameter_descriptions, /car/mux/ackermann_cmd_mux/parameter_updates, /car/mux/ackermann_cmd_mux/output] AckermannCmdMux : (re)configured [/home/robot/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/param/mux.yaml]
+1651779369.270688253 INFO /car/vesc/vesc_driver [/home/robot/catkin_ws/src/mushr/mushr_base/vesc/vesc_driver/src/vesc_driver.cpp:96(VescDriver::timerCallback)] [topics: /rosout, /car/vesc/sensors/core, /car/vesc/sensors/servo_position_command] Connected to VESC with firmware version 2.18
+1651779370.854669971 INFO /car/mux/ackermann_cmd_mux [/tmp/binarydeb/ros-melodic-nodelet-1.9.16/src/nodelet.cpp:159(unloadNodelet)] [topics: /rosout, /car/mux/nodelet_manager/bond] Unloading nodelet /car/mux/ackermann_cmd_mux from manager nodelet_manager

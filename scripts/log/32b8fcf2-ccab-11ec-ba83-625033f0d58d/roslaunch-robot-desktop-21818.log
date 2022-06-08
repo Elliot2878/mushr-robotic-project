@@ -1,0 +1,115 @@
+[roslaunch][INFO] 2022-05-05 15:40:20,622: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2022-05-05 15:40:20,658: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2022-05-05 15:40:20,659: roslaunch starting with args ['/opt/ros/melodic/bin/roslaunch', 'jetson_csi_cam', 'jetson_csi_cam.launch', 'width:=1280', 'height:=720', 'fps:=15']
+[roslaunch][INFO] 2022-05-05 15:40:20,659: roslaunch env is {'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '10.42.0.1', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ROS_HOSTNAME': 'robot-desktop', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/melodic', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'ROS_LOG_FILENAME': '/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/roslaunch-robot-desktop-21818.log', 'ROS_HOME': '/home/robot/catkin_ws/src/cybertruck2/scripts', 'ROS_MASTER_URI': 'http://robot-desktop:11311', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '14', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'SSH_CLIENT': '10.42.0.188 59108 22', 'SHLVL': '1', 'PWD': '/home/robot', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'SSH_CONNECTION': '10.42.0.188 59108 10.42.0.1 22', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp'}
+[roslaunch][INFO] 2022-05-05 15:40:20,660: starting in server mode
+[roslaunch.parent][INFO] 2022-05-05 15:40:20,661: starting roslaunch parent run
+[roslaunch][INFO] 2022-05-05 15:40:20,662: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2022-05-05 15:40:22,617: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2022-05-05 15:40:22,618: loading config file /home/robot/catkin_ws/src/jetson_csi_cam/jetson_csi_cam.launch
+[roslaunch][INFO] 2022-05-05 15:40:22,633: Added node of type [gscam/gscam] in namespace [/]
+[roslaunch][INFO] 2022-05-05 15:40:22,633: ... selected machine [] for node of type [gscam/gscam]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:22,637: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2022-05-05 15:40:22,638: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2022-05-05 15:40:22,639: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2022-05-05 15:40:22,639: starting parent XML-RPC server
+[roslaunch.server][INFO] 2022-05-05 15:40:22,640: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2022-05-05 15:40:22,640: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2022-05-05 15:40:22,640: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:40:22,641: Started XML-RPC server [http://robot-desktop:44317/]
+[xmlrpc][INFO] 2022-05-05 15:40:22,642: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2022-05-05 15:40:22,654: started roslaunch server http://robot-desktop:44317/
+[roslaunch.parent][INFO] 2022-05-05 15:40:22,654: ... parent XML-RPC server started
+[roslaunch][INFO] 2022-05-05 15:40:22,656: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:22,657: auto-starting new master
+[roslaunch][INFO] 2022-05-05 15:40:22,658: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2022-05-05 15:40:22,658: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:22,658: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:22,659: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2022-05-05 15:40:22,659: process[master]: starting os process
+[roslaunch][INFO] 2022-05-05 15:40:22,659: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/master.log']]
+[roslaunch][INFO] 2022-05-05 15:40:22,660: process[master]: cwd will be [/home/robot/catkin_ws/src/cybertruck2/scripts]
+[roslaunch][INFO] 2022-05-05 15:40:22,683: process[master]: started with pid [21849]
+[roslaunch][INFO] 2022-05-05 15:40:22,684: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:22,787: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:22,889: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:22,991: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,093: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,196: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,297: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,400: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,502: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,604: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,706: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,711: master.is_running[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,715: ROS_MASTER_URI=http://robot-desktop:11311
+[roslaunch][INFO] 2022-05-05 15:40:23,721: setting /run_id to 32b8fcf2-ccab-11ec-ba83-625033f0d58d
+[roslaunch][INFO] 2022-05-05 15:40:23,728: setting /roslaunch/uris/host_robot_desktop__44317' to http://robot-desktop:44317/
+[roslaunch][INFO] 2022-05-05 15:40:23,735: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2022-05-05 15:40:23,736: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:23,736: process[rosout-1]: env[{'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '10.42.0.1', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ROS_HOSTNAME': 'robot-desktop', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/roslaunch-robot-desktop-21818.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_HOME': '/home/robot/catkin_ws/src/cybertruck2/scripts', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '14', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.42.0.188 59108 10.42.0.1 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'SSH_CLIENT': '10.42.0.188 59108 22', 'SHLVL': '1', 'PWD': '/home/robot', 'ROS_MASTER_URI': 'http://robot-desktop:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp'}]
+[roslaunch][INFO] 2022-05-05 15:40:23,961: process[rosout-1]: args[[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2022-05-05 15:40:23,962: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:23,962: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:23,962: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2022-05-05 15:40:23,963: ... registered process [rosout-1]
+[roslaunch][INFO] 2022-05-05 15:40:23,963: process[rosout-1]: starting os process
+[roslaunch][INFO] 2022-05-05 15:40:23,963: process[rosout-1]: start w/ args [[u'/opt/ros/melodic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/rosout-1.log']]
+[roslaunch][INFO] 2022-05-05 15:40:23,963: process[rosout-1]: cwd will be [/home/robot/catkin_ws/src/cybertruck2/scripts]
+[roslaunch][INFO] 2022-05-05 15:40:23,978: process[rosout-1]: started with pid [21862]
+[roslaunch][INFO] 2022-05-05 15:40:23,978: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2022-05-05 15:40:23,979: load_parameters starting ...
+[roslaunch][INFO] 2022-05-05 15:40:24,000: ... load_parameters complete
+[roslaunch][INFO] 2022-05-05 15:40:24,001: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2022-05-05 15:40:24,001: ... preparing to launch node of type [gscam/gscam]
+[roslaunch][INFO] 2022-05-05 15:40:24,002: create_node_process: package[gscam] type[gscam] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://robot-desktop:11311]
+[roslaunch][INFO] 2022-05-05 15:40:24,002: process[csi_cam_0-2]: env[{'GSCAM_CONFIG': 'nvarguscamerasrc sensor-id=0 ! video/x-raw(memory:NVMM),     width=(int)1280, height=(int)720, format=(string)NV12, framerate=(fraction)15/1 !      nvvidconv flip-method=2 ! video/x-raw, format=(string)BGRx ! videoconvert', 'ROS_DISTRO': 'melodic', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'ROS_IP': '10.42.0.1', 'LOGNAME': 'robot', 'USER': 'robot', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'ROS_HOSTNAME': 'robot-desktop', 'HOME': '/home/robot', 'CMAKE_PREFIX_PATH': '/home/robot/catkin_ws/devel:/opt/ros/melodic', 'ROS_LOG_FILENAME': '/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/roslaunch-robot-desktop-21818.log', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LD_LIBRARY_PATH': '/home/robot/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_HOME': '/home/robot/catkin_ws/src/cybertruck2/scripts', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'ROS_PYTHON_VERSION': '2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PYTHONPATH': '/home/robot/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'PKG_CONFIG_PATH': '/home/robot/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/robot/catkin_ws/src:/opt/ros/melodic/share', 'XDG_SESSION_ID': '14', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/melodic/bin/roslaunch', 'SSH_CONNECTION': '10.42.0.188 59108 10.42.0.1 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SSH_TTY': '/dev/pts/2', 'SSH_CLIENT': '10.42.0.188 59108 22', 'SHLVL': '1', 'PWD': '/home/robot', 'ROS_MASTER_URI': 'http://robot-desktop:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/robot', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/robot/catkin_ws/devel/share/common-lisp'}]
+[roslaunch][INFO] 2022-05-05 15:40:24,008: process[csi_cam_0-2]: args[[u'/home/robot/catkin_ws/devel/lib/gscam/gscam', u'camera/image_raw:=csi_cam_0/image_raw', u'/set_camera_info:=csi_cam_0/set_camera_info', u'__name:=csi_cam_0']]
+[roslaunch][INFO] 2022-05-05 15:40:24,009: ... created process [csi_cam_0-2]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:24,010: ProcessMonitor.register[csi_cam_0-2]
+[roslaunch.pmon][INFO] 2022-05-05 15:40:24,011: ProcessMonitor.register[csi_cam_0-2] complete
+[roslaunch][INFO] 2022-05-05 15:40:24,012: ... registered process [csi_cam_0-2]
+[roslaunch][INFO] 2022-05-05 15:40:24,012: process[csi_cam_0-2]: starting os process
+[roslaunch][INFO] 2022-05-05 15:40:24,013: process[csi_cam_0-2]: start w/ args [[u'/home/robot/catkin_ws/devel/lib/gscam/gscam', u'camera/image_raw:=csi_cam_0/image_raw', u'/set_camera_info:=csi_cam_0/set_camera_info', u'__name:=csi_cam_0', u'__log:=/home/robot/catkin_ws/src/cybertruck2/scripts/log/32b8fcf2-ccab-11ec-ba83-625033f0d58d/csi_cam_0-2.log']]
+[roslaunch][INFO] 2022-05-05 15:40:24,013: process[csi_cam_0-2]: cwd will be [/home/robot/catkin_ws/src/cybertruck2/scripts]
+[roslaunch][INFO] 2022-05-05 15:40:24,034: process[csi_cam_0-2]: started with pid [21867]
+[roslaunch][INFO] 2022-05-05 15:40:24,035: ... successfully launched [csi_cam_0-2]
+[roslaunch][INFO] 2022-05-05 15:40:24,036: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2022-05-05 15:40:24,036: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 548200145392)>
+[roslaunch.parent][INFO] 2022-05-05 15:40:24,037: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2022-05-05 15:40:24,037: spin
+[roslaunch.pmon][INFO] 2022-05-05 15:42:44,900: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 548200145392)>
+[roslaunch.pmon][INFO] 2022-05-05 15:42:44,993: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 548200145392)>
+[roslaunch.pmon][INFO] 2022-05-05 15:42:44,993: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 548200145392)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7fa35f4150>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa349cf10>, <roslaunch.nodeprocess.LocalProcess object at 0x7fa368af90>]
+[roslaunch.pmon][INFO] 2022-05-05 15:42:44,994: ProcessMonitor exit: killing csi_cam_0-2
+[roslaunch][INFO] 2022-05-05 15:42:44,995: [csi_cam_0-2] killing on exit
+[roslaunch][INFO] 2022-05-05 15:42:44,996: process[csi_cam_0-2]: killing os process with pid[21867] pgid[21867]
+[roslaunch][INFO] 2022-05-05 15:42:44,997: [csi_cam_0-2] sending SIGINT to pgid [21867]
+[roslaunch][INFO] 2022-05-05 15:42:44,998: [csi_cam_0-2] sent SIGINT to pgid [21867]
+[roslaunch][ERROR] 2022-05-05 15:43:00,046: [csi_cam_0-2] escalating to SIGTERM
+[roslaunch][INFO] 2022-05-05 15:43:00,046: [csi_cam_0-2] sent SIGTERM to pgid [21867]
+[roslaunch][INFO] 2022-05-05 15:43:00,247: process[csi_cam_0-2]: SIGTERM killed with return value -15
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,248: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2022-05-05 15:43:00,248: [rosout-1] killing on exit
+[roslaunch][INFO] 2022-05-05 15:43:00,248: process[rosout-1]: killing os process with pid[21862] pgid[21862]
+[roslaunch][INFO] 2022-05-05 15:43:00,248: [rosout-1] sending SIGINT to pgid [21862]
+[roslaunch][INFO] 2022-05-05 15:43:00,249: [rosout-1] sent SIGINT to pgid [21862]
+[roslaunch][INFO] 2022-05-05 15:43:00,550: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,550: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2022-05-05 15:43:00,551: [master] killing on exit
+[roslaunch][INFO] 2022-05-05 15:43:00,551: process[master]: killing os process with pid[21849] pgid[21849]
+[roslaunch][INFO] 2022-05-05 15:43:00,551: [master] sending SIGINT to pgid [21849]
+[roslaunch][INFO] 2022-05-05 15:43:00,551: [master] sent SIGINT to pgid [21849]
+[roslaunch][INFO] 2022-05-05 15:43:00,752: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,752: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,753: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2022-05-05 15:43:00,770: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2022-05-05 15:43:00,770: runner.stop()
+[roslaunch][INFO] 2022-05-05 15:43:00,770: shutting down processing monitor...
+[roslaunch][INFO] 2022-05-05 15:43:00,771: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 548200145392)>
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,771: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 548200145392)>
+[roslaunch][INFO] 2022-05-05 15:43:00,771: ... shutting down processing monitor complete
+[roslaunch][INFO] 2022-05-05 15:43:00,771: done
+[roslaunch.pmon][INFO] 2022-05-05 15:43:00,772: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 548200145392)>
+[rospy.core][INFO] 2022-05-05 15:43:00,773: signal_shutdown [atexit]

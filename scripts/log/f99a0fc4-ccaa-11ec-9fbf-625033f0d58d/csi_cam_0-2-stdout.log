@@ -1,0 +1,38 @@
+[0m[ INFO] [1651779527.779062932]: Using gstreamer config from env: "nvarguscamerasrc sensor-id=0 ! video/x-raw(memory:NVMM),     width=(int)1920, height=(int)1080, format=(string)NV12, framerate=(fraction)30/1 !      nvvidconv flip-method=2 ! video/x-raw, format=(string)BGRx ! videoconvert"[0m
+[0m[ INFO] [1651779527.794726838]: using default calibration URL[0m
+[0m[ INFO] [1651779527.794833193]: camera calibration URL: file:///home/robot/catkin_ws/src/cybertruck2/scripts/camera_info/csi_cam_0.yaml[0m
+[0m[ INFO] [1651779527.795004599]: Unable to open camera calibration file [/home/robot/catkin_ws/src/cybertruck2/scripts/camera_info/csi_cam_0.yaml][0m
+[0m[ INFO] [1651779527.795130640]: Loaded camera calibration from [0m
+[0m[ INFO] [1651779528.457837307]: Time offset: 1651779265.425[0m
+[0m[ INFO] [1651779528.480766994]: Publishing stream...[0m
+[0m[ INFO] [1651779528.481114026]: Started stream.[0m
+GST_ARGUS: Creating output stream
+CONSUMER: Waiting until producer is connected...
+GST_ARGUS: Available Sensor modes :
+GST_ARGUS: 3264 x 2464 FR = 21.000000 fps Duration = 47619048 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 3264 x 1848 FR = 28.000001 fps Duration = 35714284 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1920 x 1080 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1640 x 1232 FR = 29.999999 fps Duration = 33333334 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 59.999999 fps Duration = 16666667 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: 1280 x 720 FR = 120.000005 fps Duration = 8333333 ; Analog Gain range min 1.000000, max 10.625000; Exposure Range min 13000, max 683709000;
+
+GST_ARGUS: Running with following settings:
+   Camera index = 0 
+   Camera mode  = 2 
+   Output Stream W = 1920 H = 1080 
+   seconds to Run    = 0 
+   Frame Rate = 29.999999 
+GST_ARGUS: PowerService: requested_clock_Hz=13608000
+GST_ARGUS: Setup Complete, Starting captures for 0 seconds
+GST_ARGUS: Starting repeat capture requests.
+CONSUMER: Producer has connected; continuing.
+GST_ARGUS: Cleaning up
+CONSUMER: Done Success
+GST_ARGUS: Done Success
+GST_ARGUS: 
+PowerServiceHwVic::cleanupResources

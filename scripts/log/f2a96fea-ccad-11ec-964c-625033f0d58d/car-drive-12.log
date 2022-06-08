@@ -1,0 +1,160 @@
+[rospy.client][INFO] 2022-05-05 16:00:08,642: init_node, name[/car/drive], pid[20864]
+[xmlrpc][INFO] 2022-05-05 16:00:08,643: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:00:08,644: Started XML-RPC server [http://robot-desktop:46717/]
+[rospy.init][INFO] 2022-05-05 16:00:08,645: ROS Slave URI: [http://robot-desktop:46717/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:00:08,645: _ready: http://robot-desktop:46717/
+[xmlrpc][INFO] 2022-05-05 16:00:08,648: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 16:00:08,649: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 16:00:08,746: registered with master
+[rospy.rosout][INFO] 2022-05-05 16:00:08,747: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 16:00:08,753: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 16:00:08,758: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 16:00:08,941: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 16:00:08,998: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.internal][INFO] 2022-05-05 16:00:09,000: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2022-05-05 16:00:09,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,542: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,742: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:09,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,242: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,742: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:10,942: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,543: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:11,942: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,043: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,742: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:12,942: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,144: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,242: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,542: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:13,943: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,742: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:14,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,242: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,542: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:15,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,242: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:16,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,743: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:17,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,542: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,742: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:18,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:19,941: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,041: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,142: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,342: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,542: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:20,942: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,442: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,641: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,842: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:21,942: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,042: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,141: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,241: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,341: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,441: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,541: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,642: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,741: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,841: publishing ctrl
+[rosout][INFO] 2022-05-05 16:00:22,946: publishing ctrl
+[rospy.core][INFO] 2022-05-05 16:00:23,005: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:00:23,019: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 16:00:23,026: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2022-05-05 16:00:23,027: signal-2
+[rosout][INFO] 2022-05-05 16:00:23,041: publishing ctrl
+[rospy.core][INFO] 2022-05-05 16:00:23,142: signal_shutdown [atexit]

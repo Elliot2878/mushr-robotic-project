@@ -1,0 +1,81 @@
+[rospy.client][INFO] 2022-05-05 19:36:41,840: init_node, name[/car/drive], pid[27581]
+[xmlrpc][INFO] 2022-05-05 19:36:41,841: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 19:36:41,842: Started XML-RPC server [http://robot-desktop:41253/]
+[rospy.impl.masterslave][INFO] 2022-05-05 19:36:41,843: _ready: http://robot-desktop:41253/
+[rospy.init][INFO] 2022-05-05 19:36:41,845: ROS Slave URI: [http://robot-desktop:41253/]
+[rospy.registration][INFO] 2022-05-05 19:36:41,847: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 19:36:41,848: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 19:36:41,948: registered with master
+[rospy.rosout][INFO] 2022-05-05 19:36:41,948: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 19:36:41,955: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 19:36:41,960: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2022-05-05 19:36:41,994: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,094: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,194: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 19:36:42,212: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 19:36:42,215: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 19:36:42,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,495: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,595: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,796: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,895: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:42,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,195: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,495: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,595: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,795: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,896: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:43,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,195: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,495: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,596: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,795: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,895: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:44,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,195: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,496: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,595: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,795: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,895: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:45,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,195: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,495: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,595: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,795: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,895: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:46,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,195: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,495: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,595: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,695: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,795: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,895: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:47,995: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:48,095: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:48,196: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:48,295: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:48,395: publishing ctrl
+[rosout][INFO] 2022-05-05 19:36:48,495: publishing ctrl
+[rospy.core][INFO] 2022-05-05 19:36:48,607: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 19:36:49,637: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager

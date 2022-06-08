@@ -1,0 +1,1006 @@
+[rospy.client][INFO] 2022-05-05 15:50:18,132: init_node, name[/car/drive], pid[19061]
+[xmlrpc][INFO] 2022-05-05 15:50:18,133: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:50:18,134: Started XML-RPC server [http://robot-desktop:41033/]
+[rospy.init][INFO] 2022-05-05 15:50:18,135: ROS Slave URI: [http://robot-desktop:41033/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:50:18,135: _ready: http://robot-desktop:41033/
+[rospy.registration][INFO] 2022-05-05 15:50:18,138: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 15:50:18,140: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 15:50:18,236: registered with master
+[rospy.rosout][INFO] 2022-05-05 15:50:18,238: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 15:50:18,247: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 15:50:18,253: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 15:50:18,485: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 15:50:18,776: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:39659/], count 0
+[rosout][INFO] 2022-05-05 15:50:18,857: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:18,927: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:50:19,025: topic[/car/mux/ackermann_cmd_mux/input/navigation] adding connection to [/car/mux/nodelet_manager], count 0
+[rosout][INFO] 2022-05-05 15:50:19,030: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,177: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:19,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,335: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,512: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:19,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,833: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,929: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:19,992: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:20,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,401: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:20,433: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,539: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,733: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,771: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:20,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:20,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,083: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:21,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,335: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,384: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:21,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,668: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:21,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,831: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,930: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:21,969: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:22,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,232: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,293: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:22,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,537: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,590: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:22,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,733: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:22,863: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:22,931: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,134: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,223: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:23,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,433: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,631: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,629: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:23,740: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:23,985: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:24,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,392: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:24,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,730: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,778: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:24,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:24,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,219: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:25,234: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,329: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,533: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,741: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,751: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:25,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:25,937: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,341: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,384: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:26,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,538: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,735: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:26,885: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:26,932: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,126: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:27,131: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,405: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:27,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,649: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:27,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:27,886: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:27,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,079: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:28,132: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,320: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:28,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,531: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,554: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:28,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,798: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:28,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:28,933: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,030: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,030: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:29,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,255: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:29,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,470: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:29,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:29,694: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:30,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,580: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:30,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:30,865: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:30,930: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,216: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:31,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,549: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:31,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:31,858: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:31,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,129: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:32,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,502: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:32,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,699: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:32,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:32,864: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:32,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,034: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,209: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,376: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,548: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,706: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,731: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:33,865: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:33,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,034: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,188: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,329: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,360: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,521: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,703: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:34,876: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:34,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,047: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:35,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,237: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,267: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:35,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,426: publishing ctrl
+[rospy.internal][INFO] 2022-05-05 15:50:35,476: topic[/debug_image] adding connection to [/rviz_1651779533513881055], count 0
+[rosout][INFO] 2022-05-05 15:50:35,510: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:35,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,785: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:35,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:35,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,118: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:36,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,331: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,479: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:36,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,731: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,819: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:36,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:36,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,123: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:37,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,444: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:37,529: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,733: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,789: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:37,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:37,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,143: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,160: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:38,233: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,330: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,540: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,572: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:38,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,734: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:38,929: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,104: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:39,134: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,534: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,560: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:39,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:39,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,017: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:40,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,231: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,458: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:40,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:40,934: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:40,936: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,292: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:41,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,431: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,683: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:41,730: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:41,933: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,020: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:42,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,136: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,232: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,332: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,419: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:42,434: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,799: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:42,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:42,937: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,159: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:43,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,535: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:43,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:43,871: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:43,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,134: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,218: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:44,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,333: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,624: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:44,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:44,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,008: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:45,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,336: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,379: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:45,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,731: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,733: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:45,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:45,933: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,214: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:46,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,631: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,692: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:46,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:46,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,136: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:47,138: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,621: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:47,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:47,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,030: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,036: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:48,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,329: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,372: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:48,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,776: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:48,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:48,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,163: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:49,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,333: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,510: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:49,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:49,890: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:49,933: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,317: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:50,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,685: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:50,730: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:50,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,087: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:51,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,437: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,456: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:51,534: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,835: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:51,877: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:51,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,233: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:52,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,682: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:52,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:52,929: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,088: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:53,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,594: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:53,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,729: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:53,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,035: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:54,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,334: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,503: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:54,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,647: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,729: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:54,940: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:55,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,340: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:55,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,740: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,763: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:55,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:55,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,192: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:56,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,330: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,531: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,617: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:56,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:56,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,002: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:57,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,494: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:57,531: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:57,916: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:57,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,306: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:58,329: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,632: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:58,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,931: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:58,934: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:59,030: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,304: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:59,340: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,634: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:50:59,638: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,941: publishing ctrl
+[rosout][INFO] 2022-05-05 15:50:59,958: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:00,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,131: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,286: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:00,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,686: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:00,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:00,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,023: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:01,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,133: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,328: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:01,336: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,685: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:01,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:01,937: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,066: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:02,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,495: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:02,533: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,732: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:02,911: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:02,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,331: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,381: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:03,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,782: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:03,831: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:03,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,134: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,146: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:04,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,453: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:04,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,729: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:04,852: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:04,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,240: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:05,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,536: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,573: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:05,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:05,926: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:05,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,232: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:06,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,433: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,598: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:06,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:06,942: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:07,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,131: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,271: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:07,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,631: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,638: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:07,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:07,994: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:08,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,305: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:08,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,529: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,636: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,665: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:08,734: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,831: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,939: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:08,950: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:09,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,273: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:09,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,647: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:09,730: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:09,916: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:09,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,151: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:10,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,519: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:10,532: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:10,895: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:10,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,197: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:11,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,513: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:11,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,804: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:11,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:11,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,095: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:12,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,364: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:12,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,655: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:12,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:12,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,016: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:13,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,339: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:13,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,814: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:13,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:13,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,169: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:14,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,476: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:14,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,766: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:14,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:14,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,039: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,058: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:15,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,348: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:15,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,701: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:15,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:15,994: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:16,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,300: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:16,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,530: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,638: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,662: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:16,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:16,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,031: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,046: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:17,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,366: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:17,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,750: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:17,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:17,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,112: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:18,140: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,478: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:18,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,831: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:18,868: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:18,931: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,340: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:19,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,766: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:19,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:19,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,130: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,175: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:20,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,330: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,584: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:20,630: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:20,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,053: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:21,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,525: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:21,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:21,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,036: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:22,132: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,484: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:22,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:22,879: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:22,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,337: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,339: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:23,426: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,788: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:23,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:23,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,037: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,216: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:24,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,752: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:24,834: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:24,926: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,197: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:25,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,429: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,699: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:25,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:25,939: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,095: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:26,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,529: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,570: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:26,634: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,933: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:26,954: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:27,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,133: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,266: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:27,331: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,646: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:27,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,826: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:27,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,030: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,102: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:28,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,432: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,538: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,557: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:28,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,729: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,828: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:28,931: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,010: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:29,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,326: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,431: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,607: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:29,631: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,736: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:29,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,028: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,052: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:30,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,484: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:30,531: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,727: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,829: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,935: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:30,959: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:31,027: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,131: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,383: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:31,428: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,531: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,626: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,744: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,772: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:31,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:31,928: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,129: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,191: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:32,228: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,526: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,598: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:32,629: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,732: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,831: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:32,929: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,029: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,042: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:33,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,227: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,328: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,427: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,481: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:33,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,726: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:33,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,019: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:34,032: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,128: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,230: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,327: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,443: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,482: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:34,528: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,628: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,732: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,827: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:34,948: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:35,026: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,126: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,226: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,333: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,432: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,449: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:35,527: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,627: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,728: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,841: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:35,900: /car/driveReceived a new image.
+[rosout][INFO] 2022-05-05 15:51:35,927: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:36,036: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:36,127: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:36,229: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:36,327: publishing ctrl
+[rospy.core][INFO] 2022-05-05 15:51:36,416: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 15:51:36,483: topic[/car/mux/ackermann_cmd_mux/input/navigation] removing connection to /car/mux/nodelet_manager
+[rospy.internal][INFO] 2022-05-05 15:51:36,487: topic[/debug_image] removing connection to /rviz_1651779533513881055
+[rospy.internal][INFO] 2022-05-05 15:51:36,489: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2022-05-05 15:51:36,498: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:39659/
+[rospy.impl.masterslave][INFO] 2022-05-05 15:51:36,499: signal-2
+[rosout][INFO] 2022-05-05 15:51:36,430: publishing ctrl
+[rosout][INFO] 2022-05-05 15:51:36,442: /car/driveReceived a new image.
+[rospy.core][INFO] 2022-05-05 15:51:37,080: signal_shutdown [atexit]

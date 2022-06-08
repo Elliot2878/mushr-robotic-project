@@ -1,0 +1,24 @@
+[rospy.client][INFO] 2022-05-05 18:04:12,776: init_node, name[/rostopic_8219_1651788251925], pid[8219]
+[xmlrpc][INFO] 2022-05-05 18:04:12,780: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 18:04:12,782: Started XML-RPC server [http://robot-desktop:46457/]
+[rospy.impl.masterslave][INFO] 2022-05-05 18:04:12,783: _ready: http://robot-desktop:46457/
+[xmlrpc][INFO] 2022-05-05 18:04:12,784: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 18:04:12,785: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 18:04:12,788: ROS Slave URI: [http://robot-desktop:46457/]
+[rospy.init][INFO] 2022-05-05 18:04:12,789: registered with master
+[rospy.rosout][INFO] 2022-05-05 18:04:12,789: initializing /rosout core topic
+[rospy.rosout][INFO] 2022-05-05 18:04:12,812: connected to core topic /rosout
+[rospy.simtime][INFO] 2022-05-05 18:04:12,825: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2022-05-05 18:04:13,103: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2022-05-05 18:04:13,831: topic[/csi_cam_0/image_raw] adding connection to [http://robot-desktop:33375/], count 0
+[rospy.internal][WARNING] 2022-05-05 18:23:00,339: Unknown error initiating TCP/IP socket to robot-desktop:46299 (http://robot-desktop:33375/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 357, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2022-05-05 18:23:00,341: topic[/csi_cam_0/image_raw] removing connection to http://robot-desktop:33375/
+[rospy.internal][INFO] 2022-05-05 18:23:01,873: topic[/rosout] removing connection to /rosout

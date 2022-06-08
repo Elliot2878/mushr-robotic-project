@@ -1,0 +1,300 @@
+[rospy.client][INFO] 2022-05-05 15:57:26,225: init_node, name[/car/mux/zero_ackermann_cmd], pid[29674]
+[xmlrpc][INFO] 2022-05-05 15:57:26,242: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 15:57:26,243: Started XML-RPC server [http://robot-desktop:35049/]
+[rospy.init][INFO] 2022-05-05 15:57:26,244: ROS Slave URI: [http://robot-desktop:35049/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:57:26,244: _ready: http://robot-desktop:35049/
+[rospy.registration][INFO] 2022-05-05 15:57:26,245: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 15:57:26,246: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 15:57:26,345: registered with master
+[rospy.internal][INFO] 2022-05-05 15:57:26,655: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 15:57:56,390: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 15:57:56,454: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 15:57:56,455: signal-2
+[rospy.core][INFO] 2022-05-05 15:57:57,032: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 15:58:55,243: init_node, name[/car/mux/zero_ackermann_cmd], pid[31600]
+[xmlrpc][INFO] 2022-05-05 15:58:55,245: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 15:58:55,250: ROS Slave URI: [http://robot-desktop:40899/]
+[xmlrpc][INFO] 2022-05-05 15:58:55,249: Started XML-RPC server [http://robot-desktop:40899/]
+[rospy.impl.masterslave][INFO] 2022-05-05 15:58:55,252: _ready: http://robot-desktop:40899/
+[xmlrpc][INFO] 2022-05-05 15:58:55,257: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 15:58:55,259: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 15:58:55,352: registered with master
+[rospy.internal][INFO] 2022-05-05 15:58:55,602: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 15:59:24,988: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 15:59:25,022: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 15:59:25,023: signal-2
+[rospy.core][INFO] 2022-05-05 15:59:25,652: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:01:10,286: init_node, name[/car/mux/zero_ackermann_cmd], pid[1112]
+[xmlrpc][INFO] 2022-05-05 16:01:10,301: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:01:10,303: Started XML-RPC server [http://robot-desktop:41509/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:01:10,305: _ready: http://robot-desktop:41509/
+[rospy.init][INFO] 2022-05-05 16:01:10,307: ROS Slave URI: [http://robot-desktop:41509/]
+[rospy.registration][INFO] 2022-05-05 16:01:10,309: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:01:10,313: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:01:10,408: registered with master
+[rospy.internal][INFO] 2022-05-05 16:01:10,658: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:01:14,795: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:01:14,854: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:01:14,856: signal-2
+[rospy.core][INFO] 2022-05-05 16:01:15,433: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:02:34,094: init_node, name[/car/mux/zero_ackermann_cmd], pid[1733]
+[xmlrpc][INFO] 2022-05-05 16:02:34,096: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:02:34,098: ROS Slave URI: [http://robot-desktop:33143/]
+[xmlrpc][INFO] 2022-05-05 16:02:34,099: Started XML-RPC server [http://robot-desktop:33143/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:02:34,099: _ready: http://robot-desktop:33143/
+[rospy.registration][INFO] 2022-05-05 16:02:34,101: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:02:34,102: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:02:34,199: registered with master
+[rospy.internal][INFO] 2022-05-05 16:02:34,479: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:03:58,966: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:03:59,060: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:03:59,063: signal-2
+[rospy.core][INFO] 2022-05-05 16:03:59,584: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:13:20,345: init_node, name[/car/mux/zero_ackermann_cmd], pid[5831]
+[xmlrpc][INFO] 2022-05-05 16:13:20,348: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:13:20,364: Started XML-RPC server [http://robot-desktop:41423/]
+[rospy.init][INFO] 2022-05-05 16:13:20,366: ROS Slave URI: [http://robot-desktop:41423/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:13:20,368: _ready: http://robot-desktop:41423/
+[rospy.registration][INFO] 2022-05-05 16:13:20,375: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:13:20,376: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:13:20,469: registered with master
+[rospy.internal][INFO] 2022-05-05 16:13:20,753: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:13:38,837: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:13:38,878: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:13:38,879: signal-2
+[rospy.core][INFO] 2022-05-05 16:13:38,991: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:14:14,766: init_node, name[/car/mux/zero_ackermann_cmd], pid[6846]
+[xmlrpc][INFO] 2022-05-05 16:14:14,769: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:14:14,772: ROS Slave URI: [http://robot-desktop:35963/]
+[xmlrpc][INFO] 2022-05-05 16:14:14,773: Started XML-RPC server [http://robot-desktop:35963/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:14:14,774: _ready: http://robot-desktop:35963/
+[xmlrpc][INFO] 2022-05-05 16:14:14,777: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 16:14:14,778: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 16:14:14,873: registered with master
+[rospy.internal][INFO] 2022-05-05 16:14:15,172: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:14:28,806: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:14:28,848: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:14:28,852: signal-2
+[rospy.core][INFO] 2022-05-05 16:14:29,427: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:15:50,591: init_node, name[/car/mux/zero_ackermann_cmd], pid[7632]
+[xmlrpc][INFO] 2022-05-05 16:15:50,594: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:15:50,596: ROS Slave URI: [http://robot-desktop:37285/]
+[xmlrpc][INFO] 2022-05-05 16:15:50,598: Started XML-RPC server [http://robot-desktop:37285/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:15:50,599: _ready: http://robot-desktop:37285/
+[rospy.registration][INFO] 2022-05-05 16:15:50,600: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:15:50,602: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:15:50,698: registered with master
+[rospy.internal][INFO] 2022-05-05 16:15:51,009: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:16:53,820: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:16:53,891: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:16:53,897: signal-2
+[rospy.core][INFO] 2022-05-05 16:16:54,485: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:21:03,583: init_node, name[/car/mux/zero_ackermann_cmd], pid[10252]
+[xmlrpc][INFO] 2022-05-05 16:21:03,590: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:21:03,595: ROS Slave URI: [http://robot-desktop:33363/]
+[xmlrpc][INFO] 2022-05-05 16:21:03,596: Started XML-RPC server [http://robot-desktop:33363/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:21:03,596: _ready: http://robot-desktop:33363/
+[rospy.registration][INFO] 2022-05-05 16:21:03,610: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:21:03,617: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:21:03,696: registered with master
+[rospy.internal][INFO] 2022-05-05 16:21:03,905: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:21:40,076: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:21:40,146: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:21:40,146: signal-2
+[rospy.core][INFO] 2022-05-05 16:21:40,718: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:35:48,350: init_node, name[/car/mux/zero_ackermann_cmd], pid[12467]
+[xmlrpc][INFO] 2022-05-05 16:35:48,352: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:35:48,356: ROS Slave URI: [http://robot-desktop:42775/]
+[xmlrpc][INFO] 2022-05-05 16:35:48,358: Started XML-RPC server [http://robot-desktop:42775/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:35:48,375: _ready: http://robot-desktop:42775/
+[rospy.registration][INFO] 2022-05-05 16:35:48,377: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:35:48,385: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:35:48,458: registered with master
+[rospy.internal][INFO] 2022-05-05 16:35:48,775: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:36:46,546: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:36:46,643: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:36:46,645: signal-2
+[rospy.core][INFO] 2022-05-05 16:36:47,168: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:38:11,092: init_node, name[/car/mux/zero_ackermann_cmd], pid[15159]
+[xmlrpc][INFO] 2022-05-05 16:38:11,097: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:38:11,103: ROS Slave URI: [http://robot-desktop:46263/]
+[xmlrpc][INFO] 2022-05-05 16:38:11,105: Started XML-RPC server [http://robot-desktop:46263/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:38:11,106: _ready: http://robot-desktop:46263/
+[xmlrpc][INFO] 2022-05-05 16:38:11,108: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 16:38:11,110: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 16:38:11,205: registered with master
+[rospy.internal][INFO] 2022-05-05 16:38:11,504: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:38:23,510: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:38:23,570: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:38:23,572: signal-2
+[rospy.core][INFO] 2022-05-05 16:38:24,160: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:43:16,592: init_node, name[/car/mux/zero_ackermann_cmd], pid[15952]
+[xmlrpc][INFO] 2022-05-05 16:43:16,604: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:43:16,610: ROS Slave URI: [http://robot-desktop:36557/]
+[xmlrpc][INFO] 2022-05-05 16:43:16,607: Started XML-RPC server [http://robot-desktop:36557/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:43:16,612: _ready: http://robot-desktop:36557/
+[rospy.registration][INFO] 2022-05-05 16:43:16,631: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:43:16,633: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:43:16,711: registered with master
+[rospy.internal][INFO] 2022-05-05 16:43:17,029: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:43:28,264: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:43:28,317: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:43:28,318: signal-2
+[rospy.core][INFO] 2022-05-05 16:43:28,899: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:45:55,002: init_node, name[/car/mux/zero_ackermann_cmd], pid[16424]
+[xmlrpc][INFO] 2022-05-05 16:45:55,014: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:45:55,016: Started XML-RPC server [http://robot-desktop:36563/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:45:55,017: _ready: http://robot-desktop:36563/
+[rospy.init][INFO] 2022-05-05 16:45:55,029: ROS Slave URI: [http://robot-desktop:36563/]
+[rospy.registration][INFO] 2022-05-05 16:45:55,038: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:45:55,045: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:45:55,131: registered with master
+[rospy.internal][INFO] 2022-05-05 16:45:55,495: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:46:11,741: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:46:11,835: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:46:11,836: signal-2
+[rospy.core][INFO] 2022-05-05 16:46:12,355: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:47:17,302: init_node, name[/car/mux/zero_ackermann_cmd], pid[16826]
+[xmlrpc][INFO] 2022-05-05 16:47:17,320: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:47:17,325: ROS Slave URI: [http://robot-desktop:33817/]
+[xmlrpc][INFO] 2022-05-05 16:47:17,329: Started XML-RPC server [http://robot-desktop:33817/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:47:17,330: _ready: http://robot-desktop:33817/
+[xmlrpc][INFO] 2022-05-05 16:47:17,333: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 16:47:17,334: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 16:47:17,427: registered with master
+[rospy.internal][INFO] 2022-05-05 16:47:17,776: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:47:31,037: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:47:31,128: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:47:31,129: signal-2
+[rospy.core][INFO] 2022-05-05 16:47:31,697: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:48:54,724: init_node, name[/car/mux/zero_ackermann_cmd], pid[17597]
+[xmlrpc][INFO] 2022-05-05 16:48:54,730: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:48:54,753: Started XML-RPC server [http://robot-desktop:33509/]
+[rospy.init][INFO] 2022-05-05 16:48:54,754: ROS Slave URI: [http://robot-desktop:33509/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:48:54,755: _ready: http://robot-desktop:33509/
+[rospy.registration][INFO] 2022-05-05 16:48:54,787: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:48:54,788: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:48:54,859: registered with master
+[rospy.internal][INFO] 2022-05-05 16:48:55,165: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:49:14,148: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:49:14,192: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:49:14,194: signal-2
+[rospy.core][INFO] 2022-05-05 16:49:14,304: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:50:59,358: init_node, name[/car/mux/zero_ackermann_cmd], pid[18505]
+[xmlrpc][INFO] 2022-05-05 16:50:59,364: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:50:59,371: ROS Slave URI: [http://robot-desktop:39519/]
+[xmlrpc][INFO] 2022-05-05 16:50:59,372: Started XML-RPC server [http://robot-desktop:39519/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:50:59,373: _ready: http://robot-desktop:39519/
+[xmlrpc][INFO] 2022-05-05 16:50:59,394: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 16:50:59,396: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 16:50:59,472: registered with master
+[rospy.internal][INFO] 2022-05-05 16:50:59,832: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:51:30,982: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:51:31,097: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:51:31,100: signal-2
+[rospy.core][INFO] 2022-05-05 16:51:31,620: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:54:09,520: init_node, name[/car/mux/zero_ackermann_cmd], pid[19774]
+[xmlrpc][INFO] 2022-05-05 16:54:09,538: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:54:09,542: ROS Slave URI: [http://robot-desktop:44981/]
+[xmlrpc][INFO] 2022-05-05 16:54:09,543: Started XML-RPC server [http://robot-desktop:44981/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:54:09,544: _ready: http://robot-desktop:44981/
+[rospy.registration][INFO] 2022-05-05 16:54:09,546: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:54:09,548: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:54:09,644: registered with master
+[rospy.internal][INFO] 2022-05-05 16:54:09,922: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:54:26,960: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:54:27,068: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:54:27,071: signal-2
+[rospy.core][INFO] 2022-05-05 16:54:27,590: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:56:38,675: init_node, name[/car/mux/zero_ackermann_cmd], pid[20584]
+[xmlrpc][INFO] 2022-05-05 16:56:38,677: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 16:56:38,682: ROS Slave URI: [http://robot-desktop:37727/]
+[xmlrpc][INFO] 2022-05-05 16:56:38,684: Started XML-RPC server [http://robot-desktop:37727/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:56:38,685: _ready: http://robot-desktop:37727/
+[rospy.registration][INFO] 2022-05-05 16:56:38,699: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:56:38,703: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:56:38,784: registered with master
+[rospy.internal][INFO] 2022-05-05 16:56:39,081: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:57:00,867: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:57:00,995: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:57:01,002: signal-2
+[rospy.core][INFO] 2022-05-05 16:57:01,537: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 16:58:04,186: init_node, name[/car/mux/zero_ackermann_cmd], pid[21648]
+[xmlrpc][INFO] 2022-05-05 16:58:04,190: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 16:58:04,194: Started XML-RPC server [http://robot-desktop:33077/]
+[rospy.impl.masterslave][INFO] 2022-05-05 16:58:04,197: _ready: http://robot-desktop:33077/
+[rospy.init][INFO] 2022-05-05 16:58:04,195: ROS Slave URI: [http://robot-desktop:33077/]
+[rospy.registration][INFO] 2022-05-05 16:58:04,223: Registering with master node http://robot-desktop:11311
+[xmlrpc][INFO] 2022-05-05 16:58:04,224: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2022-05-05 16:58:04,315: registered with master
+[rospy.internal][INFO] 2022-05-05 16:58:04,592: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 16:59:19,691: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 16:59:19,730: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 16:59:19,731: signal-2
+[rospy.core][INFO] 2022-05-05 16:59:20,306: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 17:00:36,561: init_node, name[/car/mux/zero_ackermann_cmd], pid[24380]
+[xmlrpc][INFO] 2022-05-05 17:00:36,564: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 17:00:36,569: ROS Slave URI: [http://robot-desktop:32977/]
+[xmlrpc][INFO] 2022-05-05 17:00:36,570: Started XML-RPC server [http://robot-desktop:32977/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:00:36,570: _ready: http://robot-desktop:32977/
+[xmlrpc][INFO] 2022-05-05 17:00:36,571: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 17:00:36,573: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 17:00:36,670: registered with master
+[rospy.internal][INFO] 2022-05-05 17:00:37,025: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 17:02:24,503: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:02:24,583: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 17:02:24,585: signal-2
+[rospy.core][INFO] 2022-05-05 17:02:25,160: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 17:03:25,869: init_node, name[/car/mux/zero_ackermann_cmd], pid[28135]
+[xmlrpc][INFO] 2022-05-05 17:03:25,872: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 17:03:25,876: ROS Slave URI: [http://robot-desktop:38565/]
+[xmlrpc][INFO] 2022-05-05 17:03:25,878: Started XML-RPC server [http://robot-desktop:38565/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:03:25,880: _ready: http://robot-desktop:38565/
+[xmlrpc][INFO] 2022-05-05 17:03:25,884: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 17:03:25,886: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 17:03:25,978: registered with master
+[rospy.internal][INFO] 2022-05-05 17:03:26,267: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 17:03:54,972: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:03:55,055: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 17:03:55,057: signal-2
+[rospy.core][INFO] 2022-05-05 17:03:55,628: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 17:06:47,296: init_node, name[/car/mux/zero_ackermann_cmd], pid[29398]
+[xmlrpc][INFO] 2022-05-05 17:06:47,299: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 17:06:47,310: ROS Slave URI: [http://robot-desktop:42791/]
+[xmlrpc][INFO] 2022-05-05 17:06:47,312: Started XML-RPC server [http://robot-desktop:42791/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:06:47,313: _ready: http://robot-desktop:42791/
+[xmlrpc][INFO] 2022-05-05 17:06:47,316: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 17:06:47,319: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 17:06:47,412: registered with master
+[rospy.internal][INFO] 2022-05-05 17:06:47,711: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 17:07:24,485: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:07:24,549: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 17:07:24,550: signal-2
+[rospy.core][INFO] 2022-05-05 17:07:25,121: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 17:08:34,991: init_node, name[/car/mux/zero_ackermann_cmd], pid[30952]
+[xmlrpc][INFO] 2022-05-05 17:08:35,007: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2022-05-05 17:08:35,014: Started XML-RPC server [http://robot-desktop:37361/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:08:35,016: _ready: http://robot-desktop:37361/
+[xmlrpc][INFO] 2022-05-05 17:08:35,028: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 17:08:35,030: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 17:08:35,038: ROS Slave URI: [http://robot-desktop:37361/]
+[rospy.init][INFO] 2022-05-05 17:08:35,041: registered with master
+[rospy.internal][INFO] 2022-05-05 17:08:35,354: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 17:08:45,694: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:08:45,869: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 17:08:45,870: signal-2
+[rospy.core][INFO] 2022-05-05 17:08:46,346: signal_shutdown [atexit]
+[rospy.client][INFO] 2022-05-05 17:14:15,372: init_node, name[/car/mux/zero_ackermann_cmd], pid[31699]
+[xmlrpc][INFO] 2022-05-05 17:14:15,374: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2022-05-05 17:14:15,377: ROS Slave URI: [http://robot-desktop:44243/]
+[xmlrpc][INFO] 2022-05-05 17:14:15,378: Started XML-RPC server [http://robot-desktop:44243/]
+[rospy.impl.masterslave][INFO] 2022-05-05 17:14:15,379: _ready: http://robot-desktop:44243/
+[xmlrpc][INFO] 2022-05-05 17:14:15,380: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2022-05-05 17:14:15,381: Registering with master node http://robot-desktop:11311
+[rospy.init][INFO] 2022-05-05 17:14:15,479: registered with master
+[rospy.internal][INFO] 2022-05-05 17:14:15,769: topic[/car/mux/ackermann_cmd_mux/input/default] adding connection to [/car/mux/nodelet_manager], count 0
+[rospy.core][INFO] 2022-05-05 17:14:22,366: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2022-05-05 17:14:22,420: topic[/car/mux/ackermann_cmd_mux/input/default] removing connection to /car/mux/nodelet_manager
+[rospy.impl.masterslave][INFO] 2022-05-05 17:14:22,421: signal-2
+[rospy.core][INFO] 2022-05-05 17:14:23,044: signal_shutdown [atexit]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
