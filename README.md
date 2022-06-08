@@ -18,16 +18,7 @@ Note that the launch file only launches the source code and vesc
 To launch the camera, please open another terminal and type "roslaunch jetson_csi_cam jetson_csi_cam.launch width:=1280 height:=720 fps:=15"
 The low resolution might help increase the detection speed of the robot.
 
-Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.
-
-The camera is up side down for unknown reason, so I have to add a minus sign for the steering output. I discover this when I use nvgstcapture-1.0 to capture the image. 
-
-The edge of the camera is red, so the robot might fail to detect the flag when the flag is showed at the edge of the camera.
-
-For unknown reason, I also asked Ben for that, the reaction of the detection is very slow. 
-Although I have tried to improve the speed of my code, the reaction of the detection is still slow. 
-
-Therefore, in part 2, I have to slow down the speed of the car to give it more time to detect the flag. This problem affects the overall performance in both part1 and part2. 
+Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this. 
 
 Project Tasks:
 Part 1: Capture the Flag
