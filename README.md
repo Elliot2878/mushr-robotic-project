@@ -1,6 +1,3 @@
-Team Members:
-Zhenyuan Liang, Bruce Ping, Evan LaBanca, Elena Wang, Alexander Teng
-
 In the src folder:
 cybertruck2.py is the source code for part 1 (we set the parameters for green flag. To test part 1, please use green flag. If you have to use flag in other color, you should uncomment some code and tune the color range by yourself)
 part2.py is the source code for part 2
@@ -18,7 +15,7 @@ Note that the launch file only launches the source code and vesc
 To launch the camera, please open another terminal and type "roslaunch jetson_csi_cam jetson_csi_cam.launch width:=1280 height:=720 fps:=15"
 The low resolution might help increase the detection speed of the robot.
 
-Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this. 
+Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.
 
 Project Tasks:
 Part 1: Capture the Flag
