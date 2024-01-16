@@ -48,37 +48,7 @@ rospy.loginfo(rospy.get_caller_id() + 'Received a new image.')
 bridge = CvBridge()
 cv_image = bridge.imgmsg_to_cv2(latest_img, desired_encoding = 'passthrough')
 self.if_flag, self.x, self.flag_reached = self.detect_flag(cv_image)
-        
-        '''
- img = cv_image[:,:,::-1]
- 
 
- img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-
-
- pixel_min = np.array([90, 70, 90])
- pixel_max = np.array([126, 225, 225])
-
- mask = cv2.inRange(img, pixel_min, pixel_max)
- ret, thresh = cv2.threshold(mask, 50, 255, cv2.THRESH_BINARY)
- _, contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
- if len(contours) > 0:
- max_contour = max(contours, key = len)
- flag = cv2.minAreaRect(max_contour)[0]
- x = int(flag[0])
- y = int(flag[1])
- pixel = img[y, x]
- output = str(pixel[0]) + ','+ str(pixel[1]) + ',' + str(pixel[2])
- print('output for noise2:', output)
- 
- box = cv2.boxPoints(cv2.minAreaRect(max_contour))
- box = np.int0(box)
- img_bgr = cv2.cvtColor(img, cv2.COLOR_HSV2BGR)
-
- draw_box = cv2.drawContours(img_bgr,[box],0,255,2)
- img_to_pub = bridge.cv2_to_imgmsg(draw_box)
- self.im_pub.publish(img_to_pub)
- '''
     def pub_callback(self, event):
         #global cur_vel
         #global a
