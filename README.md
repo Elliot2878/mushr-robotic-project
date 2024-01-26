@@ -1,5 +1,5 @@
 In the src folder:<br>
-cybertruck2.py is the source code for part 1 (we set the parameters for green flag. To test part 1, please use green flag. If you have to use flag in other color, you should uncomment some code and tune the color range by yourself)<br>
+cybertruck2.py is the source code for part 1 (we set the parameters for green flag. To test part 1, please use green flag. If you have to use flag in other color, you should uncomment some code and tune the color range by yourself).<br>
 part2.py is the source code for part 2<br>
 
 In the launch folder:<br>
