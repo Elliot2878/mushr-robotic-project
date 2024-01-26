@@ -1,21 +1,21 @@
-In the src folder:
-cybertruck2.py is the source code for part 1 (we set the parameters for green flag. To test part 1, please use green flag. If you have to use flag in other color, you should uncomment some code and tune the color range by yourself)
-part2.py is the source code for part 2
+In the src folder:<br>
+cybertruck2.py is the source code for part 1 (we set the parameters for green flag. To test part 1, please use green flag. If you have to use flag in other color, you should uncomment some code and tune the color range by yourself)<br>
+part2.py is the source code for part 2<br>
 
-In the launch folder:
-drive.launch is the launch file for part 1
-part2.launch is the launch file for part 2
+In the launch folder:<br>
+drive.launch is the launch file for part 1<br>
+part2.launch is the launch file for part 2<br>
 
-In the script folder:
-There are some pictures produced for capturing the image and pixel and for testing
-
+In the script folder:<br>
+There are some pictures produced for capturing the image and pixel and for testing<br>
+<br>
 To launch the source code and vesc: roslaunch drive.launch or roslaunch part2.launch in the right directory
+<br>
+Note that the launch file only launches the source code and vesc<br>
+To launch the camera, please open another terminal and type "roslaunch jetson_csi_cam jetson_csi_cam.launch width:=1280 height:=720 fps:=15"<br>
+The low resolution might help increase the detection speed of the robot.<br>
 
-Note that the launch file only launches the source code and vesc
-To launch the camera, please open another terminal and type "roslaunch jetson_csi_cam jetson_csi_cam.launch width:=1280 height:=720 fps:=15"
-The low resolution might help increase the detection speed of the robot.
-
-Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.
+Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.<br>
 
 Project Tasks:<br>
 Part 1: Capture the Flag<br>
