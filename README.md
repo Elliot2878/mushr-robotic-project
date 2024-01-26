@@ -17,7 +17,7 @@ The low resolution might help increase the detection speed of the robot.
 
 Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.
 
-Project Tasks:
+Project Tasks:<br>
 Part 1: Capture the Flag<br>
 Given an image of a colored sign, the robot must scan its surroundings to find a
 similar sign, the flag, somewhere in the room. Once the flag has been detected,
