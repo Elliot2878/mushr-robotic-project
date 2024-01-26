@@ -18,7 +18,7 @@ The low resolution might help increase the detection speed of the robot.
 Please do not try to simply include the xml code to launch the camera. It will not work even though TA tried this before. It might need further work if you want to achieve this.
 
 Project Tasks:
-Part 1: Capture the Flag
+Part 1: Capture the Flag<br>
 Given an image of a colored sign, the robot must scan its surroundings to find a
 similar sign, the flag, somewhere in the room. Once the flag has been detected,
 the robot must move towards the flag to capture it. We suggest breaking this
@@ -40,7 +40,7 @@ towards the target. (10pts)
 6. If the target moves at this point, the robot should be able to follow along.
 (10pts)
 
-Part 2: Racetrack
+Part 2: Racetrack<br>
 Now that your car is able to track an object, create a program that will move along a course with alternating color markers.
 • For this, you may demonstrate that your program works for a sequence of alternative colored markers in a room. You can test your code out with two different colored markers placed in the environment at about the height of the car.
 • Your program will then need to work with a track we will set up on the fifth floor. You may assume the next marker in the sequence is visible if the correct path is followed.
